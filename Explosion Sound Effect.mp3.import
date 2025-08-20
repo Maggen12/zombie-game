@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5x0hvby3rq6a"
+path="res://.godot/imported/Explosion Sound Effect.mp3-55beb1da0e09b85e98a9a45e95347614.mp3str"
+
+[deps]
+
+source_file="res://Explosion Sound Effect.mp3"
+dest_files=["res://.godot/imported/Explosion Sound Effect.mp3-55beb1da0e09b85e98a9a45e95347614.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
