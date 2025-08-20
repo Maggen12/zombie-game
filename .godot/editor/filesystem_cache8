@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1755723435
+::res://::1755723676
 360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg::CompressedTexture2D::7319518547959599075::1755501084::1755722856::1::::<><>::
 1956b1c08d23633f8a35f3d0de4508276747da3c.png::CompressedTexture2D::225161863056592044::1755504029::1755722856::1::::<><>::
 ammo_box.gd::GDScript::-1::1755587139::0::1::::<>Area2D<>::
@@ -930,10 +930,10 @@ Window_18_Boarded-up_Beige.png::CompressedTexture2D::719462406510685386::1755609
 Window_19_gray.png::CompressedTexture2D::7647373383406425372::1755609832::1755722857::1::::<><>::
 Window_20_open_gray.png::CompressedTexture2D::5350371235609014124::1755609832::1755722857::1::::<><>::
 Window_21_open_Boarded-up.png::CompressedTexture2D::4714357829743024330::1755609832::1755722857::1::::<><>::
-::res://tileset/::1755587541
+::res://tileset/::1755723466
 ::res://tileset/Zombie Apocalypse Tileset/::1755722856
 Zombie Apocalypse Tileset Reference.png::CompressedTexture2D::7842196387264085694::1755587537::1755722856::1::::<><>::
-::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/::1755587537
+::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/::1755723658
 ::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/90º Rotatable Bridge Sprites/::1755722857
 Zombie-Tileset---_0106_Capa-107.png::CompressedTexture2D::4785885069461978126::1755587536::1755722857::1::::<><>::
 Zombie-Tileset---_0107_Capa-108.png::CompressedTexture2D::9025703610564828431::1755587536::1755722857::1::::<><>::
@@ -1431,27 +1431,6 @@ Zombie-Tileset---_0139_Capa-140.png::CompressedTexture2D::2407909429560298113::1
 Zombie-Tileset---_0140_Capa-141.png::CompressedTexture2D::6584175507352135391::1755587536::1755722857::1::::<><>::
 Zombie-Tileset---_0141_Capa-142.png::CompressedTexture2D::5535414136240943694::1755587536::1755722857::1::::<><>::
 Zombie-Tileset---_0142_Capa-143.png::CompressedTexture2D::2036423387000842857::1755587536::1755722857::1::::<><>::
-::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/Turret Zombie Animation Frames/::1755722857
-Zombie-Tileset---_0448_Capa-449.png::CompressedTexture2D::5169056957463156719::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0449_Capa-450.png::CompressedTexture2D::2441849307701917863::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0450_Capa-451.png::CompressedTexture2D::3974697404244731556::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0451_Capa-452.png::CompressedTexture2D::1376037239666899896::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0452_Capa-453.png::CompressedTexture2D::5623520958413106205::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0453_Capa-454.png::CompressedTexture2D::265772922028026031::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0454_Capa-455.png::CompressedTexture2D::3603730651306286473::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0455_Capa-456.png::CompressedTexture2D::2501968016492714751::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0456_Capa-457.png::CompressedTexture2D::4339761851644098686::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0457_Capa-458.png::CompressedTexture2D::5219180122218153820::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0458_Capa-459.png::CompressedTexture2D::56279482096989430::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0459_Capa-460.png::CompressedTexture2D::6050296380924188529::1755587536::1755722857::1::::<><>::
-::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/Turret Zombie Vomit Shooting Animation Frames /::1755722857
-Zombie-Tileset---_0469_Capa-470.png::CompressedTexture2D::8433941570663720982::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0470_Capa-471.png::CompressedTexture2D::2485178766317202666::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0471_Capa-472.png::CompressedTexture2D::7835452996003346783::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0472_Capa-473.png::CompressedTexture2D::3755926058210561661::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0473_Capa-474.png::CompressedTexture2D::8787545847035760993::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0474_Capa-475.png::CompressedTexture2D::3513214437238146068::1755587536::1755722857::1::::<><>::
-Zombie-Tileset---_0475_Capa-476.png::CompressedTexture2D::5689201501126989391::1755587536::1755722857::1::::<><>::
 ::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/UI Elements/::1755722857
 Zombie-Tileset---_0494_Capa-495.png::CompressedTexture2D::7741331537627024684::1755587536::1755722857::1::::<><>::
 Zombie-Tileset---_0495_Capa-496.png::CompressedTexture2D::1671091844077443439::1755587536::1755722857::1::::<><>::
