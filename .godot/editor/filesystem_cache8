@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1755723676
+::res://::1755723865
 360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg::CompressedTexture2D::7319518547959599075::1755501084::1755722856::1::::<><>::
 1956b1c08d23633f8a35f3d0de4508276747da3c.png::CompressedTexture2D::225161863056592044::1755504029::1755722856::1::::<><>::
 ammo_box.gd::GDScript::-1::1755587139::0::1::::<>Area2D<>::
@@ -933,7 +933,7 @@ Window_21_open_Boarded-up.png::CompressedTexture2D::4714357829743024330::1755609
 ::res://tileset/::1755723466
 ::res://tileset/Zombie Apocalypse Tileset/::1755722856
 Zombie Apocalypse Tileset Reference.png::CompressedTexture2D::7842196387264085694::1755587537::1755722856::1::::<><>::
-::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/::1755723658
+::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/::1755723990
 ::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/90º Rotatable Bridge Sprites/::1755722857
 Zombie-Tileset---_0106_Capa-107.png::CompressedTexture2D::4785885069461978126::1755587536::1755722857::1::::<><>::
 Zombie-Tileset---_0107_Capa-108.png::CompressedTexture2D::9025703610564828431::1755587536::1755722857::1::::<><>::
@@ -1412,6 +1412,11 @@ Zombie-Tileset---_0077_Capa-78.png::CompressedTexture2D::846636797865166816::175
 Zombie-Tileset---_0078_Capa-79.png::CompressedTexture2D::6787674810410035341::1755587536::1755722857::1::::<><>::
 Zombie-Tileset---_0079_Capa-80.png::CompressedTexture2D::5955570990357688621::1755587536::1755722857::1::::<><>::
 Zombie-Tileset---_0080_Capa-81.png::CompressedTexture2D::931986259876309676::1755587536::1755722857::1::::<><>::
+::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/Terrain Variations_duplicate/::1755723990
+Zombie-Tileset---_0077_Capa-78.png::CompressedTexture2D::7346703675072462106::1755723990::1755723991::1::::<><>::
+Zombie-Tileset---_0078_Capa-79.png::CompressedTexture2D::6066096564262152110::1755723990::1755723991::1::::<><>::
+Zombie-Tileset---_0079_Capa-80.png::CompressedTexture2D::271484092697189676::1755723990::1755723991::1::::<><>::
+Zombie-Tileset---_0080_Capa-81.png::CompressedTexture2D::7517203468842059713::1755723990::1755723991::1::::<><>::
 ::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/Terrain wall/::1755722857
 Zombie-Tileset---_0064_Capa-65.png::CompressedTexture2D::4639094004390579147::1755587536::1755722857::1::::<><>::
 ::res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/Tombstone/::1755722857
