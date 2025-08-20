@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3pa32ikkb28a"
+path="res://.godot/imported/BRM5 OST - Calm Before The Storm (Skydive Night) HQ.mp3-5da12a72093ccfd693d83c39a4d7fbe9.mp3str"
+
+[deps]
+
+source_file="res://BRM5 OST - Calm Before The Storm (Skydive Night) HQ.mp3"
+dest_files=["res://.godot/imported/BRM5 OST - Calm Before The Storm (Skydive Night) HQ.mp3-5da12a72093ccfd693d83c39a4d7fbe9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

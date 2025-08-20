@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtwihkoc3gmf6"]
+
+[ext_resource type="Script" path="res://character_body_2d.gd" id="1_060tb"]
+[ext_resource type="Texture2D" uid="uid://8modpb0qcd0s" path="res://purepng.com-zombiezombiezombizonbihuman-corpsezombieshorrormental-diseasesviruses-170152783284746omi.png" id="2_me1bk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7bhep"]
+size = Vector2(58, 135)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_060tb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(123.75, 113.829)
+scale = Vector2(0.0747071, 0.0747071)
+texture = ExtResource("2_me1bk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(125, 114.5)
+shape = SubResource("RectangleShape2D_7bhep")

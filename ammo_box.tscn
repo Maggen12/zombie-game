@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://cf384vo48prwb"]
+
+[ext_resource type="Texture2D" uid="uid://dhcnay7vme4s" path="res://1956b1c08d23633f8a35f3d0de4508276747da3c.png" id="1_i8jpl"]
+[ext_resource type="Script" path="res://ammo_box.gd" id="1_py70a"]
+[ext_resource type="AudioStream" uid="uid://dxuhtp8doi5mf" path="res://Item Pick up (Counter Strike Source) - Sound Effect for editing changed.mp3" id="3_4f26r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hktuw"]
+size = Vector2(51, 48)
+
+[node name="AmmoBox" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_py70a")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.90735e-06, 1)
+scale = Vector2(0.121224, 0.121224)
+texture = ExtResource("1_i8jpl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 1)
+shape = SubResource("RectangleShape2D_hktuw")
+
+[node name="pickupSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_4f26r")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

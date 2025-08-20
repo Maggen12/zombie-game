@@ -1,0 +1,52 @@
+[gd_scene load_steps=5 format=3 uid="uid://bo20gtmr7yhov"]
+
+[ext_resource type="Texture2D" uid="uid://kuw2oh8mb3b2" path="res://tileset/Zombie Apocalypse Tileset/Organized separated sprites/Exploding Barrel Animation Frames/Zombie-Tileset---_0147_Capa-148.png" id="1_bnn8e"]
+[ext_resource type="Script" path="res://exploding_barrel.gd" id="1_sih0u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oxl63"]
+size = Vector2(24, 33)
+
+[sub_resource type="Curve" id="Curve_l4vu2"]
+_data = [Vector2(0.027933, 1), 0.0, 0.0, 0, 0, Vector2(0.980447, 0.116865), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="explodingBarrel" type="Area2D"]
+collision_layer = 32
+collision_mask = 64
+script = ExtResource("1_sih0u")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_bnn8e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0.5)
+shape = SubResource("RectangleShape2D_oxl63")
+
+[node name="explosionTimer" type="Timer" parent="."]
+wait_time = 0.05
+one_shot = true
+
+[node name="explosion_effect" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 100
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 100.0
+initial_velocity_max = 200.0
+scale_amount_min = 10.0
+scale_amount_max = 20.0
+scale_amount_curve = SubResource("Curve_l4vu2")
+color = Color(1, 0.363945, 0.28287, 1)
+
+[node name="explosionAfterTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="timeout" from="explosionTimer" to="." method="_on_explosion_timer_timeout"]
+[connection signal="timeout" from="explosionAfterTimer" to="." method="_on_explosion_after_timer_timeout"]

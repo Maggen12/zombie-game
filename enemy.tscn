@@ -1,0 +1,251 @@
+[gd_scene load_steps=17 format=3 uid="uid://4kin5tdyubh7"]
+
+[ext_resource type="Script" path="res://enemy.gd" id="1_6bbkv"]
+[ext_resource type="Texture2D" uid="uid://c26djrfo4ua4v" path="res://animations/zombie/Hurt.png" id="2_4wd2k"]
+[ext_resource type="Texture2D" uid="uid://c44n2iw2earld" path="res://animations/zombie/Attack.png" id="2_6bi6h"]
+[ext_resource type="Texture2D" uid="uid://b06fc2pb351ms" path="res://animations/zombie/Dead.png" id="2_44p1k"]
+[ext_resource type="Texture2D" uid="uid://bjxoo1hmnrqkx" path="res://animations/zombie/Walk.png" id="2_871ts"]
+[ext_resource type="AudioStream" uid="uid://ger1p6dtjwda" path="res://Plants vs Zombies eating sound changed.mp3" id="3_euh6i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xmd2y"]
+size = Vector2(93, 158)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q4fxa"]
+size = Vector2(62, 126.5)
+
+[sub_resource type="Animation" id="Animation_pknto"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("walking:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("attacking:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("hurt:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("dead:frame_coords")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2i(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ofgn2"]
+resource_name = "attacking"
+length = 0.4
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("attacking:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4]
+}
+
+[sub_resource type="Animation" id="Animation_ps7ad"]
+resource_name = "die"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("dead:frame_coords")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_l1b5t"]
+resource_name = "hurt"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("hurt:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3]
+}
+
+[sub_resource type="Animation" id="Animation_8g3pb"]
+resource_name = "idle"
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("walking:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.166667, 0.33, 0.5, 0.6673, 0.834, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5]
+}
+
+[sub_resource type="Animation" id="Animation_wbnv6"]
+resource_name = "walk"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("walking:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9]
+}
+
+[sub_resource type="Animation" id="Animation_0p0o3"]
+resource_name = "walk_left"
+length = 0.3
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fi54a"]
+_data = {
+"RESET": SubResource("Animation_pknto"),
+"attacking": SubResource("Animation_ofgn2"),
+"die": SubResource("Animation_ps7ad"),
+"hurt": SubResource("Animation_l1b5t"),
+"idle": SubResource("Animation_8g3pb"),
+"walk": SubResource("Animation_wbnv6"),
+"walk_left": SubResource("Animation_0p0o3")
+}
+
+[node name="enemy" type="CharacterBody2D"]
+collision_mask = 2
+script = ExtResource("1_6bbkv")
+
+[node name="dead" type="Sprite2D" parent="."]
+position = Vector2(2.48, -55.52)
+scale = Vector2(1.82, 1.82)
+texture = ExtResource("2_44p1k")
+hframes = 5
+
+[node name="hurt" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(2.48001, -55.52)
+scale = Vector2(1.82, 1.82)
+texture = ExtResource("2_4wd2k")
+hframes = 4
+
+[node name="attacking" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(2.48001, -55.52)
+scale = Vector2(1.82, 1.82)
+texture = ExtResource("2_6bi6h")
+hframes = 5
+
+[node name="walking" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(3.48, -54.52)
+scale = Vector2(1.82812, 1.82812)
+texture = ExtResource("2_871ts")
+hframes = 10
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(0, 8)
+collision_layer = 0
+collision_mask = 2
+
+[node name="HitBox" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1.98, -4.52)
+shape = SubResource("RectangleShape2D_xmd2y")
+
+[node name="DamageTimer" type="Timer" parent="."]
+wait_time = 0.5
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+offset_left = -29.52
+offset_top = -71.52
+offset_right = 25.48
+offset_bottom = -63.52
+max_value = 3.0
+show_percentage = false
+metadata/_edit_use_anchors_ = true
+
+[node name="zombieEating" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_euh6i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.480003, 3.23)
+shape = SubResource("RectangleShape2D_q4fxa")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_fi54a")
+}
+
+[node name="hurtTimer" type="Timer" parent="."]
+wait_time = 0.4
+
+[node name="walkTimer" type="Timer" parent="."]
+
+[node name="deadTimer" type="Timer" parent="."]
+wait_time = 0.4
+one_shot = true
+
+[node name="afterDeadTimer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="bababooey" type="Timer" parent="."]
+wait_time = 0.4
+one_shot = true
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="timeout" from="DamageTimer" to="." method="_on_damage_timer_timeout"]
+[connection signal="timeout" from="hurtTimer" to="." method="_on_hurt_timer_timeout"]
+[connection signal="timeout" from="deadTimer" to="." method="_on_dead_timer_timeout"]
+[connection signal="timeout" from="afterDeadTimer" to="." method="_on_after_dead_timer_timeout"]
+[connection signal="timeout" from="bababooey" to="." method="_bababooey"]

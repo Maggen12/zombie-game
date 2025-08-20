@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://p73d0eib73on"
+path="res://.godot/imported/Explosion sound effect - bomb sound - boom sound.skibidi.mp3-cc4c191cbd117f7ebf2ba150336b1e6e.mp3str"
+
+[deps]
+
+source_file="res://Explosion sound effect - bomb sound - boom sound.skibidi.mp3"
+dest_files=["res://.godot/imported/Explosion sound effect - bomb sound - boom sound.skibidi.mp3-cc4c191cbd117f7ebf2ba150336b1e6e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

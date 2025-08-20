@@ -1,0 +1,92 @@
+[gd_scene load_steps=5 format=3 uid="uid://on3fkb5ewyrm"]
+
+[ext_resource type="Script" path="res://title_screen.gd" id="1_qdgj4"]
+[ext_resource type="AudioStream" uid="uid://d1g55dj2u5xw" path="res://Tense music from game show - Sound Effect (HD).mp3" id="2_juvql"]
+[ext_resource type="AudioStream" uid="uid://daxv7jfhwhg2e" path="res://Click Sound Effect changed.mp3" id="3_pn154"]
+[ext_resource type="VideoStream" path="res://Zombie-Invasion-Live-Wallpaper-Free.ogv" id="4_rktj4"]
+
+[node name="Title screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qdgj4")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+modulate = Color(0.117524, 0.118648, 0.170006, 1)
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 368.0
+scale = Vector2(3, 3)
+stream = ExtResource("4_rktj4")
+volume_db = -80.0
+autoplay = true
+loop = true
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.432813
+anchor_top = 0.465741
+anchor_right = 0.569271
+anchor_bottom = 0.573148
+grow_horizontal = 2
+grow_vertical = 2
+text = "Start"
+metadata/_edit_use_anchors_ = true
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.433
+anchor_top = 0.611
+anchor_right = 0.569
+anchor_bottom = 0.71
+offset_left = 0.204773
+offset_top = 0.079895
+offset_right = 0.567749
+offset_bottom = 9.91193
+grow_horizontal = 2
+grow_vertical = 2
+text = "Quit"
+metadata/_edit_use_anchors_ = true
+
+[node name="TitleScreenMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_juvql")
+volume_db = -10.0
+
+[node name="ZombieGame" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.410937
+anchor_top = 0.246296
+anchor_right = 0.589583
+anchor_bottom = 0.285185
+grow_horizontal = 2
+bbcode_enabled = true
+text = "[font=Edges.ttf] [color=red][font_size=36]ZOMBIE: [color=gray]The Game"
+metadata/_edit_use_anchors_ = true
+
+[node name="information" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.414062
+anchor_top = 0.284259
+anchor_right = 0.585938
+anchor_bottom = 0.315741
+grow_horizontal = 2
+grow_vertical = 2
+text = "Complete all the waves to win the game!"
+metadata/_edit_use_anchors_ = true
+
+[node name="click" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_pn154")
+
+[node name="Delay" type="Timer" parent="."]
+wait_time = 0.2
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="timeout" from="Delay" to="." method="_on_delay_timeout"]

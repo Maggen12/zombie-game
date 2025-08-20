@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bu5k1qberw8h6"
+path="res://.godot/imported/Zombie Survival OST HQ [Full Soundtrack].mp3-978c10af6c7764bf70c9b5aac260dcec.mp3str"
+
+[deps]
+
+source_file="res://Zombie Survival OST HQ [Full Soundtrack].mp3"
+dest_files=["res://.godot/imported/Zombie Survival OST HQ [Full Soundtrack].mp3-978c10af6c7764bf70c9b5aac260dcec.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

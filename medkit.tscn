@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://c6yx2h4dflijj"]
+
+[ext_resource type="Texture2D" uid="uid://ewh6guivoel7" path="res://medkit.png" id="1_kuni1"]
+[ext_resource type="Script" path="res://medkit.gd" id="1_s75pn"]
+[ext_resource type="AudioStream" uid="uid://4kd82npal81x" path="res://Half Life Medkit Sound Effect.mp3" id="3_mh6y6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3r77w"]
+size = Vector2(146, 112.5)
+
+[node name="Area2D" type="Area2D"]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1_s75pn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 2)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("1_kuni1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-8, -0.75)
+scale = Vector2(0.3, 0.3)
+shape = SubResource("RectangleShape2D_3r77w")
+
+[node name="pickupSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_mh6y6")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
