@@ -1,3 +1,13 @@
+#tilføj bullet tracers og bullet spread
+#tilføj flere forskellige zombier med f.eks. meget health eller meget speed
+#gør sådan man ikke skyder når man tykker på begynd wave knap
+#1 muligvis tilføj en shop hvor man købe guns og power ups etc.eller tilføj at der ligger guns, 
+#2 der skal ihverfalt hver et mere belønning når man kommer igennem waves
+#En boss på et tidspunkt
+#Flottere baggrund + bedre size forhold mellem zombiere, player og probs i baggrunden
+
+
+
 extends Node
 
 @onready var calmBeforeStorm = $calmBeforeStorm

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1756114591
+::res://::1756140991
 360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg::CompressedTexture2D::7319518547959599075::1755501084::1755724879::1::::<><>::
 1956b1c08d23633f8a35f3d0de4508276747da3c.png::CompressedTexture2D::225161863056592044::1755504029::1755724879::1::::<><>::
 ammo_box.gd::GDScript::-1::1755587139::0::1::::<>Area2D<>::
@@ -8,7 +8,7 @@ ammo_label.gd::GDScript::-1::1755534183::0::1::::<>RichTextLabel<>::
 BRM5 OST - Calm Before The Storm (Skydive Night) HQ.mp3::AudioStreamMP3::6769146088748021046::1755503076::1755724878::1::::<><>::
 bullet.gd::GDScript::-1::1756068655::0::1::::<>Area2D<>::
 BULLET.png::CompressedTexture2D::1746711430570800944::1754989933::1755724879::1::::<><>::
-bullet.tscn::PackedScene::8733388129606586781::1756111725::0::1::::<><>::res://bullet.gd<>uid://y5ec14o1cdhg::::res://BULLET.png
+bullet.tscn::PackedScene::8733388129606586781::1756114963::0::1::::<><>::res://bullet.gd<>uid://y5ec14o1cdhg::::res://BULLET.png
 character_body_2d.gd::GDScript::-1::1754994342::0::1::::<>CharacterBody2D<>::
 character_body_2d.tscn::PackedScene::8538765174280000937::1754994371::0::1::::<><>::res://character_body_2d.gd<>uid://8modpb0qcd0s::::res://purepng.com-zombiezombiezombizonbihuman-corpsezombieshorrormental-diseasesviruses-170152783284746omi.png
 Click Sound Effect changed.mp3::AudioStreamMP3::7208075422457634154::1755502689::1755724878::1::::<><>::
@@ -16,17 +16,17 @@ Click Sound Effect.mp3::AudioStreamMP3::1405108583832520502::1755502428::1755724
 current_ammo.gd::GDScript::-1::1755454853::0::1::::<>RichTextLabel<>::
 Edges.ttf::FontFile::253755089330271581::1755502005::1755724878::1::::<><>::
 enemy.gd::GDScript::-1::1756069098::0::1::::<>CharacterBody2D<>::
-enemy.tscn::PackedScene::2056630799527386322::1756111725::0::1::::<><>::res://enemy.gd<>uid://c26djrfo4ua4v::::res://animations/zombie/Hurt.png<>uid://c44n2iw2earld::::res://animations/zombie/Attack.png<>uid://b06fc2pb351ms::::res://animations/zombie/Dead.png<>uid://bjxoo1hmnrqkx::::res://animations/zombie/Walk.png<>uid://ger1p6dtjwda::::res://Plants vs Zombies eating sound changed.mp3
+enemy.tscn::PackedScene::2056630799527386322::1756114963::0::1::::<><>::res://enemy.gd<>uid://c26djrfo4ua4v::::res://animations/zombie/Hurt.png<>uid://c44n2iw2earld::::res://animations/zombie/Attack.png<>uid://b06fc2pb351ms::::res://animations/zombie/Dead.png<>uid://bjxoo1hmnrqkx::::res://animations/zombie/Walk.png<>uid://ger1p6dtjwda::::res://Plants vs Zombies eating sound changed.mp3
 exploding_barrel.gd::GDScript::-1::1756098766::0::1::::<>Area2D<>::
-exploding_barrel.tscn::PackedScene::3426332350865181933::1756111725::0::1::::<><>::res://exploding_barrel.gd<>uid://dhhh00as4h3hb::::res://Zombie-Tileset---_0147_Capa-148.png
+exploding_barrel.tscn::PackedScene::3426332350865181933::1756114963::0::1::::<><>::res://exploding_barrel.gd<>uid://dhhh00as4h3hb::::res://Zombie-Tileset---_0147_Capa-148.png
 Explosion sound effect - bomb sound - boom sound.mp3::AudioStreamMP3::8447503808899748024::1755611855::1755724878::1::::<><>::
 Explosion sound effect - bomb sound - boom sound.skibidi.mp3::AudioStreamMP3::1120599495508655849::1755707807::1755724878::1::::<><>::
 Explosion Sound Effect.mp3::AudioStreamMP3::2154677528524554982::1755611800::1755724878::1::::<><>::
 explosion.gd::GDScript::-1::1756098608::0::1::::<>Area2D<>::
-explosion.tscn::PackedScene::5207999207139865921::1756111726::0::1::::<><>::res://explosion.gd
+explosion.tscn::PackedScene::5207999207139865921::1756114963::0::1::::<><>::res://explosion.gd
 export_presets.cfg::TextFile::-1::1755721727::0::1::::<><>::
 game_over.gd::GDScript::-1::1756104401::0::1::::<>Control<>::
-game_over.tscn::PackedScene::4190757792047633029::1756111726::0::1::::<><>::res://game_over.gd
+game_over.tscn::PackedScene::4190757792047633029::1756114963::0::1::::<><>::res://game_over.gd
 globalVariables.gd::GDScript::-1::1755671410::0::1::::<>Node<>::
 global_variables.gd::GDScript::-1::1755431007::0::1::::<>RefCounted<>::
 gun-full-reload-384507.mp3::AudioStreamMP3::3606138075593896728::1755499336::1755724878::1::::<><>::
@@ -37,8 +37,8 @@ health_bar.gd::GDScript::-1::1755498068::0::1::::<>ProgressBar<>::
 icon.svg::CompressedTexture2D::2339737131874932864::1754975739::1755724879::1::::<><>::
 Item Pick up (Counter Strike Source) - Sound Effect for editing changed.mp3::AudioStreamMP3::8815352797852964181::1755520115::1755724878::1::::<><>::
 Item Pick up (Counter Strike Source) - Sound Effect for editing.mp3::AudioStreamMP3::7022043116782048005::1755520060::1755724878::1::::<><>::
-mainscene.gd::GDScript::-1::1755712754::0::1::::<>Node<>::
-mainscene.tscn::PackedScene::2237327575793136647::1756111725::0::1::::<><>::uid://cqniaqxgj08bh::::res://player.tscn<>res://mainscene.gd<>res://score.gd<>res://wave.gd<>res://ammo_label.gd<>uid://dcjvnvwo2poyt::::res://360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg<>uid://c3pa32ikkb28a::::res://BRM5 OST - Calm Before The Storm (Skydive Night) HQ.mp3<>uid://i5vi7iyxsj4t::::res://Plants vs. Zombies Wave Sound Effect.mp3<>uid://bu5k1qberw8h6::::res://Zombie Survival OST HQ [Full Soundtrack].mp3<>uid://daxv7jfhwhg2e::::res://Click Sound Effect changed.mp3<>uid://c3r5srxxnyhxb::::res://objects/Objects/Vehicles/Overgrown/Car_9_Motorcycle/Bleak-Yellow/Car_9_Overgrown_Bleak-Yellow_Red_Motorcycle_Up.png<>uid://dot20be6atwwk::::res://objects/Objects/Vehicles/Overgrown/Car_6_Overgrown_Scrap/Bleak-Yellow/Car_6_Overgrown_Bleak-Yellow_Orange_Scrap.png<>uid://djdxhrkljj0k3::::res://objects/Objects/Vehicles/Overgrown/Car_7_Overgrown_Truck/Bleak-Yellow/Car_7_Overgrown_Bleak-Yellow_Red_Truck.png<>uid://btlgmbf6h6rx3::::res://objects/Objects/Vehicles/Overgrown/Car_5_Overgrown_Tractor/Bleak-Yellow/Car_5_Overgrown_Bleak-Yellow_Tractor_Side.png<>uid://bhki2nr5cmjdm::::res://objects/Objects/Vehicles/Overgrown/Car_1_Overgrown/Bleak-Yellow/Car_1_Overgrown_Bleak-Yellow_Red.png<>uid://im1ydb2yps66::::res://objects/Objects/Nature/Red/Tree_5_Big_Red.png<>uid://cfmn4naqbk2rq::::res://objects/Objects/Nature/Red/Bush_2_Red.png<>uid://bhqpxpf1y0hu7::::res://objects/Objects/Nature/Red/Bush_1_Red.png
+mainscene.gd::GDScript::-1::1756134681::0::1::::<>Node<>::
+mainscene.tscn::PackedScene::2237327575793136647::1756114963::0::1::::<><>::uid://cqniaqxgj08bh::::res://player.tscn<>res://mainscene.gd<>res://score.gd<>res://wave.gd<>res://ammo_label.gd<>uid://dcjvnvwo2poyt::::res://360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg<>uid://c3pa32ikkb28a::::res://BRM5 OST - Calm Before The Storm (Skydive Night) HQ.mp3<>uid://i5vi7iyxsj4t::::res://Plants vs. Zombies Wave Sound Effect.mp3<>uid://bu5k1qberw8h6::::res://Zombie Survival OST HQ [Full Soundtrack].mp3<>uid://daxv7jfhwhg2e::::res://Click Sound Effect changed.mp3<>uid://c3r5srxxnyhxb::::res://objects/Objects/Vehicles/Overgrown/Car_9_Motorcycle/Bleak-Yellow/Car_9_Overgrown_Bleak-Yellow_Red_Motorcycle_Up.png<>uid://dot20be6atwwk::::res://objects/Objects/Vehicles/Overgrown/Car_6_Overgrown_Scrap/Bleak-Yellow/Car_6_Overgrown_Bleak-Yellow_Orange_Scrap.png<>uid://djdxhrkljj0k3::::res://objects/Objects/Vehicles/Overgrown/Car_7_Overgrown_Truck/Bleak-Yellow/Car_7_Overgrown_Bleak-Yellow_Red_Truck.png<>uid://btlgmbf6h6rx3::::res://objects/Objects/Vehicles/Overgrown/Car_5_Overgrown_Tractor/Bleak-Yellow/Car_5_Overgrown_Bleak-Yellow_Tractor_Side.png<>uid://bhki2nr5cmjdm::::res://objects/Objects/Vehicles/Overgrown/Car_1_Overgrown/Bleak-Yellow/Car_1_Overgrown_Bleak-Yellow_Red.png<>uid://im1ydb2yps66::::res://objects/Objects/Nature/Red/Tree_5_Big_Red.png<>uid://cfmn4naqbk2rq::::res://objects/Objects/Nature/Red/Bush_2_Red.png<>uid://bhqpxpf1y0hu7::::res://objects/Objects/Nature/Red/Bush_1_Red.png
 medkit.gd::GDScript::-1::1755536751::0::1::::<>Area2D<>::
 medkit.png::CompressedTexture2D::326652410130152550::1755535430::1755724879::1::::<><>::
 medkit.tscn::PackedScene::6999685706137910435::1755713485::0::1::::<><>::uid://ewh6guivoel7::::res://medkit.png<>res://medkit.gd<>uid://4kd82npal81x::::res://Half Life Medkit Sound Effect.mp3
@@ -48,7 +48,7 @@ Plants vs Zombies eating sound changed.mp3::AudioStreamMP3::430470028264255574::
 Plants vs Zombies eating sound.mp3::AudioStreamMP3::8438937470003221626::1755500223::1755724878::1::::<><>::
 Plants vs. Zombies Wave Sound Effect.mp3::AudioStreamMP3::624733119152931985::1755499657::1755724878::1::::<><>::
 player.gd::GDScript::-1::1756069064::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::5923186388529393285::1756111726::0::1::::<><>::res://player.gd<>uid://b8csl75jh82a::::res://animations/player/Run.png<>uid://baq7rb1bvq22v::::res://animations/player/Shot_1.png<>uid://dkrh2p4ay01oo::::res://animations/player/Idle.png<>uid://7nck01sg3kjb::::res://single-pistol-gunshot-42-40781.mp3<>uid://brm3tjy4ps61i::::res://gun-full-reload-384507.mp3
+player.tscn::PackedScene::5923186388529393285::1756114963::0::1::::<><>::res://player.gd<>uid://b8csl75jh82a::::res://animations/player/Run.png<>uid://baq7rb1bvq22v::::res://animations/player/Shot_1.png<>uid://dkrh2p4ay01oo::::res://animations/player/Idle.png<>uid://7nck01sg3kjb::::res://single-pistol-gunshot-42-40781.mp3<>uid://brm3tjy4ps61i::::res://gun-full-reload-384507.mp3
 purepng.com-zombiezombiezombizonbihuman-corpsezombieshorrormental-diseasesviruses-170152783284746omi.png::CompressedTexture2D::2341860558936637664::1754991255::1755724879::1::::<><>::
 reserve_ammo.gd::GDScript::-1::1755454930::0::1::::<>RichTextLabel<>::
 rich_text_label.gd::GDScript::-1::1755454893::0::1::::<>RichTextLabel<>::
@@ -59,7 +59,7 @@ spawner.tscn::PackedScene::3895749787203766501::1755713485::0::1::::<><>::res://
 Steve_BE.webp::CompressedTexture2D::8343117567922219537::1754989515::1755724879::1::::<><>::
 Tense music from game show - Sound Effect (HD).mp3::AudioStreamMP3::264659809074136012::1755501418::1755724878::1::::<><>::
 title_screen.gd::GDScript::-1::1755502980::0::1::::<>Control<>::
-title_screen.tscn::PackedScene::1011190254649822878::1756111725::0::1::::<><>::res://title_screen.gd<>uid://d1g55dj2u5xw::::res://Tense music from game show - Sound Effect (HD).mp3<>uid://daxv7jfhwhg2e::::res://Click Sound Effect changed.mp3<>res://Zombie-Invasion-Live-Wallpaper-Free.ogv
+title_screen.tscn::PackedScene::1011190254649822878::1756114963::0::1::::<><>::res://title_screen.gd<>uid://d1g55dj2u5xw::::res://Tense music from game show - Sound Effect (HD).mp3<>uid://daxv7jfhwhg2e::::res://Click Sound Effect changed.mp3<>res://Zombie-Invasion-Live-Wallpaper-Free.ogv
 wave.gd::GDScript::-1::1755528848::0::1::::<>RichTextLabel<>::
 Zombie Invasion Live Wallpaper Free.ogg::AudioStreamOggVorbis::4602665784649430553::1755520963::1755724878::1::::<><>::
 Zombie Survival OST HQ [Full Soundtrack].mp3::AudioStreamMP3::3852783331768503185::1755499945::1755724878::1::::<><>::
