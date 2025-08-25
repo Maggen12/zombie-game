@@ -25,6 +25,18 @@ volume_db = -80.0
 autoplay = true
 loop = true
 
+[node name="instructions" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.432813
+anchor_top = 0.612037
+anchor_right = 0.569001
+anchor_bottom = 0.720141
+grow_horizontal = 2
+grow_vertical = 2
+text = "Quit"
+metadata/_edit_use_anchors_ = true
+
 [node name="StartButton" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = -1
@@ -41,16 +53,16 @@ metadata/_edit_use_anchors_ = true
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.433
-anchor_top = 0.611
+anchor_top = 0.760074
 anchor_right = 0.569
-anchor_bottom = 0.71
+anchor_bottom = 0.859074
 offset_left = 0.204773
 offset_top = 0.079895
 offset_right = 0.567749
 offset_bottom = 9.91193
 grow_horizontal = 2
 grow_vertical = 2
-text = "Quit"
+text = "Instructions"
 metadata/_edit_use_anchors_ = true
 
 [node name="TitleScreenMusic" type="AudioStreamPlayer" parent="."]

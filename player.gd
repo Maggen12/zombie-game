@@ -41,7 +41,7 @@ func movement(delta):
 		
 	if velocity != Vector2.ZERO:
 		velocity = velocity.normalized()*SPEED
-		move_and_slide()
+		move_and_collide(velocity * delta)
 		if is_shooting:
 			return
 		else:

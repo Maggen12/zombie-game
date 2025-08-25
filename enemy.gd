@@ -26,7 +26,7 @@ func _physics_process(delta):
 	
 		if position.distance_to(player_position) > 3:
 			velocity = target_position * speed
-			move_and_slide()
+			move_and_collide(velocity * delta)
 			if hurt:
 				return
 			if attacking:
@@ -124,7 +124,6 @@ func _on_hurt_timer_timeout() -> void:
 	hurt = false
 
 func _on_dead_timer_timeout() -> void:
-	print("does this happen")
 	$afterDeadTimer.start()
 
 func _on_after_dead_timer_timeout() -> void:

@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://bo20gtmr7yhov"]
+[gd_scene load_steps=5 format=3 uid="uid://bo20gtmr7yhov"]
 
 [ext_resource type="Script" path="res://exploding_barrel.gd" id="1_sih0u"]
+[ext_resource type="Texture2D" uid="uid://dhhh00as4h3hb" path="res://Zombie-Tileset---_0147_Capa-148.png" id="2_jr4ki"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oxl63"]
 size = Vector2(24, 33)
@@ -16,9 +17,10 @@ script = ExtResource("1_sih0u")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(2, 2)
+texture = ExtResource("2_jr4ki")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 0.5)
+position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_oxl63")
 
 [node name="explosionTimer" type="Timer" parent="."]

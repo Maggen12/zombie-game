@@ -4,36 +4,35 @@
 
 [node name="game over" type="Control"]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 1924.0
-offset_bottom = 1086.0
+anchor_right = 1.00208
+anchor_bottom = 1.00556
 script = ExtResource("1_qorcv")
+metadata/_edit_use_anchors_ = true
 
-[node name="Label" type="Label" parent="."]
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.343237
-anchor_top = 0.433518
-anchor_right = 0.656763
-anchor_bottom = 0.566482
+anchor_left = 0.444906
+anchor_top = 0.30663
+anchor_right = 0.540541
+anchor_bottom = 0.337937
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 70
-text = "GAME OVER"
-horizontal_alignment = 1
-vertical_alignment = 1
+bbcode_enabled = true
+text = "[font=Edges.ttf] [color=red][font_size=36]You died"
 metadata/_edit_use_anchors_ = true
 
 [node name="tryagain" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.455042
-anchor_top = 0.696133
-anchor_right = 0.535574
-anchor_bottom = 0.745994
+anchor_left = 0.454002
+anchor_top = 0.48895
+anchor_right = 0.534534
+anchor_bottom = 0.538811
 offset_left = 9.5
 offset_top = 5.0
-offset_right = -9.50006
+offset_right = 116.556
+offset_bottom = 66.851
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_font_sizes/font_size = 20
@@ -43,11 +42,12 @@ metadata/_edit_use_anchors_ = true
 [node name="quit" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.459979
-anchor_top = 0.643646
-anchor_right = 0.530665
-anchor_bottom = 0.687845
+anchor_left = 0.45842
+anchor_top = 0.371087
+anchor_right = 0.529106
+anchor_bottom = 0.415285
 offset_top = 6.10352e-05
+offset_right = 126.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_font_sizes/font_size = 20

@@ -1,1 +1,8 @@
+res://title_screen.tscn
+res://mainscene.tscn
 res://exploding_barrel.tscn
+res://enemy.tscn
+res://bullet.tscn
+res://player.tscn
+res://explosion.tscn
+res://game_over.tscn
