@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=3 uid="uid://4kin5tdyubh7"]
 
-[ext_resource type="Script" path="res://enemy.gd" id="1_6bbkv"]
+[ext_resource type="Script" uid="uid://cv7xqm1wshsxy" path="res://enemy.gd" id="1_6bbkv"]
 [ext_resource type="Texture2D" uid="uid://c26djrfo4ua4v" path="res://animations/zombie/Hurt.png" id="2_4wd2k"]
 [ext_resource type="Texture2D" uid="uid://c44n2iw2earld" path="res://animations/zombie/Attack.png" id="2_6bi6h"]
 [ext_resource type="Texture2D" uid="uid://b06fc2pb351ms" path="res://animations/zombie/Dead.png" id="2_44p1k"]
@@ -152,13 +152,13 @@ length = 0.3
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fi54a"]
 _data = {
-"RESET": SubResource("Animation_pknto"),
-"attacking": SubResource("Animation_ofgn2"),
-"die": SubResource("Animation_ps7ad"),
-"hurt": SubResource("Animation_l1b5t"),
-"idle": SubResource("Animation_8g3pb"),
-"walk": SubResource("Animation_wbnv6"),
-"walk_left": SubResource("Animation_0p0o3")
+&"RESET": SubResource("Animation_pknto"),
+&"attacking": SubResource("Animation_ofgn2"),
+&"die": SubResource("Animation_ps7ad"),
+&"hurt": SubResource("Animation_l1b5t"),
+&"idle": SubResource("Animation_8g3pb"),
+&"walk": SubResource("Animation_wbnv6"),
+&"walk_left": SubResource("Animation_0p0o3")
 }
 
 [node name="enemy" type="CharacterBody2D"]

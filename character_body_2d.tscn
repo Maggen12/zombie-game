@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dtwihkoc3gmf6"]
 
-[ext_resource type="Script" path="res://character_body_2d.gd" id="1_060tb"]
+[ext_resource type="Script" uid="uid://bsf0ibu5dx1ja" path="res://character_body_2d.gd" id="1_060tb"]
 [ext_resource type="Texture2D" uid="uid://8modpb0qcd0s" path="res://purepng.com-zombiezombiezombizonbihuman-corpsezombieshorrormental-diseasesviruses-170152783284746omi.png" id="2_me1bk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7bhep"]
