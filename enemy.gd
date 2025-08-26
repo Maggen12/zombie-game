@@ -57,7 +57,7 @@ func take_damage(amount):
 			$bababooey.start()
 			
 func _bababooey() -> void:
-	get_node("/root/GlobalVariables").score += 1
+	get_node("/root/GlobalVariables").money += 1
 	set_state("dead")
 	$deadTimer.start()
 	dead = true

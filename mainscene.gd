@@ -1,18 +1,17 @@
-#tilføj bullet tracers og bullet spread
 #tilføj flere forskellige zombier med f.eks. meget health eller meget speed
 #gør sådan man ikke skyder når man tykker på begynd wave knap
 #1 muligvis tilføj en shop hvor man købe guns og power ups etc.eller tilføj at der ligger guns, 
 #2 der skal ihverfalt hver et mere belønning når man kommer igennem waves
 #En boss på et tidspunkt
 #Flottere baggrund + bedre size forhold mellem zombiere, player og probs i baggrunden
-
+#lav alting større og full screen
 
 
 extends Node
 
 @onready var calmBeforeStorm = $calmBeforeStorm
-var height: int = 1080
-var width: int = 1920
+var height: int = 1440
+var width: int = 2560
 @onready var ammoBox = preload("res://ammo_box.tscn")
 @onready var enemy = preload("res://enemy.tscn")
 @onready var spawnTimer = $spawntimer
@@ -57,7 +56,7 @@ func _on_timer_timeout() -> void:
 		if spawned < max_per_wave:
 			var rng = RandomNumberGenerator.new()
 			rng.randomize()
-			$player/Path2D/PathFollow2D.progress = rng.randi_range(0, 8750)
+			$player/Path2D/PathFollow2D.progress = rng.randi_range(0, 10300)
 			var ene = enemy.instantiate()
 			ene.position = $player/Path2D/PathFollow2D.position
 			get_node("enemyhandler").add_child(ene)
@@ -120,3 +119,7 @@ func _on_explode_the_timer_timeout() -> void:
 		get_node("explodingBarrel").queue_free()
 	else:
 		return
+
+
+func _on_shop_pressed() -> void:
+	pass # Replace with function body.
