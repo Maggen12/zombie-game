@@ -223,7 +223,7 @@ shape = SubResource("RectangleShape2D_q4fxa")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_fi54a")
+&"": SubResource("AnimationLibrary_fi54a")
 }
 
 [node name="hurtTimer" type="Timer" parent="."]

@@ -113,7 +113,6 @@ _data = {
 }
 
 [node name="player" type="CharacterBody2D"]
-position = Vector2(644, 333)
 collision_layer = 2
 collision_mask = 13
 script = ExtResource("1_jd23w")
@@ -170,7 +169,7 @@ volume_db = -16.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_b8x61")
+&"": SubResource("AnimationLibrary_b8x61")
 }
 
 [node name="is_shooting" type="Timer" parent="."]
