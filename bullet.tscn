@@ -1,7 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://dworvkjfps1vl"]
+[gd_scene load_steps=7 format=3 uid="uid://dworvkjfps1vl"]
 
 [ext_resource type="Script" path="res://bullet.gd" id="1_fwmlh"]
 [ext_resource type="Texture2D" uid="uid://y5ec14o1cdhg" path="res://BULLET.png" id="1_gasjp"]
+[ext_resource type="Script" path="res://addons/trail_2d/trail_2d.gd" id="3_v3qmc"]
+
+[sub_resource type="Curve" id="Curve_sdsmi"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.984293, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_mvdkr"]
+offsets = PackedFloat32Array(0.01)
+colors = PackedColorArray(1, 1, 1, 0.0784314)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_jmms1"]
 
@@ -11,9 +20,14 @@ collision_mask = 33
 script = ExtResource("1_fwmlh")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-visible = false
-scale = Vector2(0.3, 0.3)
+scale = Vector2(1e-05, 1e-05)
 texture = ExtResource("1_gasjp")
+
+[node name="Trail2D" type="Line2D" parent="Sprite2D"]
+width = 4.0
+width_curve = SubResource("Curve_sdsmi")
+gradient = SubResource("Gradient_mvdkr")
+script = ExtResource("3_v3qmc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(0.6, 0.6)

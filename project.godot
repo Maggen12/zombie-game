@@ -21,12 +21,12 @@ GlobalVariables="*res://globalVariables.gd"
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
+window/size/viewport_width=2560
+window/size/viewport_height=1440
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/SpritesheetGenerator/plugin.cfg")
+enabled=PackedStringArray("res://addons/SpritesheetGenerator/plugin.cfg", "res://addons/trail_2d/plugin.cfg")
 
 [input]
 
