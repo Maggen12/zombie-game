@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bo20gtmr7yhov"]
 
-[ext_resource type="Script" path="res://exploding_barrel.gd" id="1_sih0u"]
+[ext_resource type="Script" uid="uid://rweqdgd6jw4n" path="res://exploding_barrel.gd" id="1_sih0u"]
 [ext_resource type="Texture2D" uid="uid://dhhh00as4h3hb" path="res://Zombie-Tileset---_0147_Capa-148.png" id="2_jr4ki"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oxl63"]

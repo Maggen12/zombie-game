@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://on3fkb5ewyrm"]
 
-[ext_resource type="Script" path="res://title_screen.gd" id="1_qdgj4"]
+[ext_resource type="Script" uid="uid://ds8qtxk4m3bqe" path="res://title_screen.gd" id="1_qdgj4"]
 [ext_resource type="AudioStream" uid="uid://d1g55dj2u5xw" path="res://Tense music from game show - Sound Effect (HD).mp3" id="2_juvql"]
 [ext_resource type="AudioStream" uid="uid://daxv7jfhwhg2e" path="res://Click Sound Effect changed.mp3" id="3_pn154"]
-[ext_resource type="VideoStream" path="res://Zombie-Invasion-Live-Wallpaper-Free.ogv" id="4_rktj4"]
+[ext_resource type="VideoStream" uid="uid://dhpsbbj75o5qp" path="res://Zombie-Invasion-Live-Wallpaper-Free.ogv" id="4_rktj4"]
 
 [node name="Title screen" type="Control"]
 layout_mode = 3

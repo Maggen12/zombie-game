@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cf384vo48prwb"]
 
 [ext_resource type="Texture2D" uid="uid://dhcnay7vme4s" path="res://1956b1c08d23633f8a35f3d0de4508276747da3c.png" id="1_i8jpl"]
-[ext_resource type="Script" path="res://ammo_box.gd" id="1_py70a"]
+[ext_resource type="Script" uid="uid://bh4ax8peniru6" path="res://ammo_box.gd" id="1_py70a"]
 [ext_resource type="AudioStream" uid="uid://dxuhtp8doi5mf" path="res://Item Pick up (Counter Strike Source) - Sound Effect for editing changed.mp3" id="3_4f26r"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hktuw"]

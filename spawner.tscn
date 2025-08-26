@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bvreou4uydewr"]
 
-[ext_resource type="Script" path="res://spawner.gd" id="1_yxytf"]
+[ext_resource type="Script" uid="uid://bifljwxt63xrf" path="res://spawner.gd" id="1_yxytf"]
 [ext_resource type="AudioStream" uid="uid://i5vi7iyxsj4t" path="res://Plants vs. Zombies Wave Sound Effect.mp3" id="2_exyh5"]
 [ext_resource type="AudioStream" uid="uid://bu5k1qberw8h6" path="res://Zombie Survival OST HQ [Full Soundtrack].mp3" id="3_0rx2b"]
 [ext_resource type="AudioStream" uid="uid://daxv7jfhwhg2e" path="res://Click Sound Effect changed.mp3" id="4_h0p6u"]

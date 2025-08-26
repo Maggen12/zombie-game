@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://c6yx2h4dflijj"]
 
 [ext_resource type="Texture2D" uid="uid://ewh6guivoel7" path="res://medkit.png" id="1_kuni1"]
-[ext_resource type="Script" path="res://medkit.gd" id="1_s75pn"]
+[ext_resource type="Script" uid="uid://dra1oatl6hiis" path="res://medkit.gd" id="1_s75pn"]
 [ext_resource type="AudioStream" uid="uid://4kd82npal81x" path="res://Half Life Medkit Sound Effect.mp3" id="3_mh6y6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3r77w"]

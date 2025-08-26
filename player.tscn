@@ -1,6 +1,6 @@
 [gd_scene load_steps=14 format=3 uid="uid://cqniaqxgj08bh"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_jd23w"]
+[ext_resource type="Script" uid="uid://u55aclx42t54" path="res://player.gd" id="1_jd23w"]
 [ext_resource type="Texture2D" uid="uid://b8csl75jh82a" path="res://animations/player/Run.png" id="2_7ok4j"]
 [ext_resource type="Texture2D" uid="uid://baq7rb1bvq22v" path="res://animations/player/Shot_1.png" id="2_ewr50"]
 [ext_resource type="Texture2D" uid="uid://dkrh2p4ay01oo" path="res://animations/player/Idle.png" id="2_rc7je"]
@@ -105,11 +105,11 @@ length = 0.8
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_b8x61"]
 _data = {
-"RESET": SubResource("Animation_lf20h"),
-"firing": SubResource("Animation_i5q35"),
-"idle": SubResource("Animation_jww4q"),
-"running": SubResource("Animation_f45t6"),
-"walking_south": SubResource("Animation_umkil")
+&"RESET": SubResource("Animation_lf20h"),
+&"firing": SubResource("Animation_i5q35"),
+&"idle": SubResource("Animation_jww4q"),
+&"running": SubResource("Animation_f45t6"),
+&"walking_south": SubResource("Animation_umkil")
 }
 
 [node name="player" type="CharacterBody2D"]
