@@ -56,9 +56,9 @@ func _on_timer_timeout() -> void:
 		if spawned < max_per_wave:
 			var rng = RandomNumberGenerator.new()
 			rng.randomize()
-			$player/Path2D/PathFollow2D.progress = rng.randi_range(0, 10300)
+			$Path2D/PathFollow2D.progress = rng.randi_range(0, 13200)
 			var ene = enemy.instantiate()
-			ene.position = $player/Path2D/PathFollow2D.position
+			ene.position = $Path2D/PathFollow2D.position
 			get_node("enemyhandler").add_child(ene)
 			ene.add_to_group("zombies")
 			spawned += 1
@@ -121,5 +121,5 @@ func _on_explode_the_timer_timeout() -> void:
 		return
 
 
-func _on_shop_pressed() -> void:
-	pass # Replace with function body.
+#func _on_shop_pressed() -> void:
+	

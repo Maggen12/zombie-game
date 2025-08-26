@@ -1,9 +1,18 @@
-[gd_scene load_steps=4 format=3 uid="uid://dworvkjfps1vl"]
+[gd_scene load_steps=7 format=3 uid="uid://dworvkjfps1vl"]
 
 [ext_resource type="Script" uid="uid://cu6dwtkfksrcg" path="res://bullet.gd" id="1_fwmlh"]
 [ext_resource type="Texture2D" uid="uid://y5ec14o1cdhg" path="res://BULLET.png" id="1_gasjp"]
+[ext_resource type="Script" uid="uid://b0ihex4vmuqni" path="res://addons/trail_2d/trail_2d.gd" id="3_t4vbm"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_jmms1"]
+
+[sub_resource type="Curve" id="Curve_t4vbm"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_t4vbm"]
+offsets = PackedFloat32Array(0)
+colors = PackedColorArray(1, 1, 1, 0.0627451)
 
 [node name="bullet" type="Area2D"]
 collision_layer = 64
@@ -17,5 +26,12 @@ texture = ExtResource("1_gasjp")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(0.6, 0.6)
 shape = SubResource("CircleShape2D_jmms1")
+
+[node name="Trail2D" type="Line2D" parent="."]
+width = 5.0
+width_curve = SubResource("Curve_t4vbm")
+gradient = SubResource("Gradient_t4vbm")
+script = ExtResource("3_t4vbm")
+metadata/_custom_type_script = "uid://b0ihex4vmuqni"
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

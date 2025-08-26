@@ -1,6 +1,6 @@
 extends Area2D
 
-var speed = 4500
+var speed = 4000
 var spread_angle: float = randf_range(-2.5, 2.5)
 var spread_radians = deg_to_rad(spread_angle)
 

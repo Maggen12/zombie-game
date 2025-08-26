@@ -13,6 +13,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_qdgj4")
+metadata/_edit_use_anchors_ = true
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
 modulate = Color(0.117524, 0.118648, 0.170006, 1)

@@ -113,6 +113,7 @@ _data = {
 }
 
 [node name="player" type="CharacterBody2D"]
+scale = Vector2(1.3, 1.3)
 collision_layer = 2
 collision_mask = 13
 script = ExtResource("1_jd23w")
@@ -151,13 +152,12 @@ one_shot = true
 one_shot = true
 
 [node name="HealthBar" type="ProgressBar" parent="."]
-offset_left = -37.0
-offset_top = -28.0
-offset_right = 33.0
+offset_left = -25.0
+offset_top = -20.0
+offset_right = 20.0
 offset_bottom = -13.0
 step = 10.0
 show_percentage = false
-metadata/_edit_use_anchors_ = true
 
 [node name="GunShot" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_uam03")

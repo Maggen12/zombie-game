@@ -1,5 +1,12 @@
+Label
+RichTextLabel
+HBoxContainer
+Panel
+Control
+Button
+TileMapLayer
+Trail2D
 Timer
 Node2D
 Sprite2D
 Line2D
-RichTextLabel

@@ -173,21 +173,18 @@ texture = ExtResource("2_44p1k")
 hframes = 5
 
 [node name="hurt" type="Sprite2D" parent="."]
-visible = false
 position = Vector2(2.48001, -55.52)
 scale = Vector2(1.82, 1.82)
 texture = ExtResource("2_4wd2k")
 hframes = 4
 
 [node name="attacking" type="Sprite2D" parent="."]
-visible = false
 position = Vector2(2.48001, -55.52)
 scale = Vector2(1.82, 1.82)
 texture = ExtResource("2_6bi6h")
 hframes = 5
 
 [node name="walking" type="Sprite2D" parent="."]
-visible = false
 position = Vector2(3.48, -54.52)
 scale = Vector2(1.82812, 1.82812)
 texture = ExtResource("2_871ts")
