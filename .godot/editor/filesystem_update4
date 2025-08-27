@@ -6,6 +6,4 @@ res://player.tscn
 res://explosion.tscn
 res://game_over.tscn
 res://mainscene.tscn
-res://mainscene.gd
-res://bullet.gd
 res://shop.tscn
