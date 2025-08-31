@@ -7,3 +7,4 @@ res://explosion.tscn
 res://game_over.tscn
 res://mainscene.tscn
 res://shop.tscn
+res://exploding_barrel.gd

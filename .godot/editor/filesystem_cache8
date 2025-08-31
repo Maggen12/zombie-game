@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1756671879
 360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg::CompressedTexture2D::7319518547959599075::1755724299::1756411233::1::::<><>::
 1956b1c08d23633f8a35f3d0de4508276747da3c.png::CompressedTexture2D::225161863056592044::1755724299::1756411233::1::::<><>::
@@ -699,3 +700,708 @@ Zombie-Tileset---_0223_Capa-224.png::CompressedTexture2D::1663519772726104533::1
 Zombie-Tileset---_0224_Capa-225.png::CompressedTexture2D::7871215106268279230::1756219601::1756411233::1::::<><>::
 ::res://Zombie Apocalypse Tileset/Organized separated sprites/Zombie Poster/::1756411233
 Zombie-Tileset---_0296_Capa-297.png::CompressedTexture2D::6256259260034483509::1756219601::1756411233::1::::<><>::
+=======
+::res://::1756671561
+360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg::CompressedTexture2D::7319518547959599075::1755501084::1755724879::1::::<><>::
+1956b1c08d23633f8a35f3d0de4508276747da3c.png::CompressedTexture2D::225161863056592044::1755504029::1755724879::1::::<><>::
+ammo_box.gd::GDScript::-1::1755587139::0::1::::<>Area2D<>::
+ammo_box.tscn::PackedScene::5183644737454524249::1756217667::0::1::::<><>::uid://dhcnay7vme4s::::res://1956b1c08d23633f8a35f3d0de4508276747da3c.png<>uid://bh4ax8peniru6::::res://ammo_box.gd<>uid://dxuhtp8doi5mf::::res://Item Pick up (Counter Strike Source) - Sound Effect for editing changed.mp3
+ammo_label.gd::GDScript::-1::1755534183::0::1::::<>RichTextLabel<>::
+BRM5 OST - Calm Before The Storm (Skydive Night) HQ.mp3::AudioStreamMP3::6769146088748021046::1755503076::1755724878::1::::<><>::
+bullet.gd::GDScript::-1::1756222470::0::1::::<>Area2D<>::
+BULLET.png::CompressedTexture2D::1746711430570800944::1754989933::1755724879::1::::<><>::
+bullet.tscn::PackedScene::8733388129606586781::1756277867::0::1::::<><>::res://bullet.gd<>uid://y5ec14o1cdhg::::res://BULLET.png<>res://addons/trail_2d/trail_2d.gd
+character_body_2d.gd::GDScript::-1::1754994342::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::8538765174280000937::1756217667::0::1::::<><>::uid://bsf0ibu5dx1ja::::res://character_body_2d.gd<>uid://8modpb0qcd0s::::res://purepng.com-zombiezombiezombizonbihuman-corpsezombieshorrormental-diseasesviruses-170152783284746omi.png
+Click Sound Effect changed.mp3::AudioStreamMP3::7208075422457634154::1755502689::1755724878::1::::<><>::
+Click Sound Effect.mp3::AudioStreamMP3::1405108583832520502::1755502428::1755724878::1::::<><>::
+current_ammo.gd::GDScript::-1::1755454853::0::1::::<>RichTextLabel<>::
+Edges.ttf::FontFile::253755089330271581::1755502005::1756222484::1::::<><>::
+enemy.gd::GDScript::-1::1756204266::0::1::::<>CharacterBody2D<>::
+enemy.tscn::PackedScene::2056630799527386322::1756277867::0::1::::<><>::res://enemy.gd<>uid://c26djrfo4ua4v::::res://animations/zombie/Hurt.png<>uid://c44n2iw2earld::::res://animations/zombie/Attack.png<>uid://b06fc2pb351ms::::res://animations/zombie/Dead.png<>uid://bjxoo1hmnrqkx::::res://animations/zombie/Walk.png<>uid://ger1p6dtjwda::::res://Plants vs Zombies eating sound changed.mp3
+exploding_barrel.gd::GDScript::-1::1756098766::0::1::::<>Area2D<>::
+exploding_barrel.tscn::PackedScene::3426332350865181933::1756277867::0::1::::<><>::res://exploding_barrel.gd<>uid://dhhh00as4h3hb::::res://Zombie-Tileset---_0147_Capa-148.png
+Explosion sound effect - bomb sound - boom sound.mp3::AudioStreamMP3::8447503808899748024::1755611855::1755724878::1::::<><>::
+Explosion sound effect - bomb sound - boom sound.skibidi.mp3::AudioStreamMP3::1120599495508655849::1755707807::1755724878::1::::<><>::
+Explosion Sound Effect.mp3::AudioStreamMP3::2154677528524554982::1755611800::1755724878::1::::<><>::
+explosion.gd::GDScript::-1::1756098608::0::1::::<>Area2D<>::
+explosion.tscn::PackedScene::5207999207139865921::1756277867::0::1::::<><>::res://explosion.gd
+export_presets.cfg::TextFile::-1::1755721727::0::1::::<><>::
+game_over.gd::GDScript::-1::1756104401::0::1::::<>Control<>::
+game_over.tscn::PackedScene::4190757792047633029::1756277867::0::1::::<><>::res://game_over.gd
+globalVariables.gd::GDScript::-1::1756204209::0::1::::<>Node<>::
+global_variables.gd::GDScript::-1::1755431007::0::1::::<>RefCounted<>::
+gun-full-reload-384507.mp3::AudioStreamMP3::3606138075593896728::1755499336::1755724878::1::::<><>::
+gun.gd::GDScript::-1::1754990456::0::1::::<>Area2D<>::
+gunplay rg.otf::FontFile::7843089319770785860::1755524293::1756222484::1::::<><>::
+Half Life Medkit Sound Effect.mp3::AudioStreamMP3::2056362764115611911::1755535786::1755724878::1::::<><>::
+health_bar.gd::GDScript::-1::1755498068::0::1::::<>ProgressBar<>::
+icon.svg::CompressedTexture2D::2339737131874932864::1754975739::1755724879::1::::<><>::
+Item Pick up (Counter Strike Source) - Sound Effect for editing changed.mp3::AudioStreamMP3::8815352797852964181::1755520115::1755724878::1::::<><>::
+Item Pick up (Counter Strike Source) - Sound Effect for editing.mp3::AudioStreamMP3::7022043116782048005::1755520060::1755724878::1::::<><>::
+mainscene.gd::GDScript::-1::1756222470::0::1::::<>Node<>::
+mainscene.tscn::PackedScene::2237327575793136647::1756277867::0::1::::<><>::uid://cqniaqxgj08bh::::res://player.tscn<>res://mainscene.gd<>uid://deme7pc7ngqwn::::res://Zombie Apocalypse Tileset/Organized separated sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png<>res://score.gd<>res://wave.gd<>res://ammo_label.gd<>uid://c3pa32ikkb28a::::res://BRM5 OST - Calm Before The Storm (Skydive Night) HQ.mp3<>uid://i5vi7iyxsj4t::::res://Plants vs. Zombies Wave Sound Effect.mp3<>uid://bu5k1qberw8h6::::res://Zombie Survival OST HQ [Full Soundtrack].mp3<>uid://daxv7jfhwhg2e::::res://Click Sound Effect changed.mp3
+medkit.gd::GDScript::-1::1755536751::0::1::::<>Area2D<>::
+medkit.png::CompressedTexture2D::326652410130152550::1755535430::1755724879::1::::<><>::
+medkit.tscn::PackedScene::6999685706137910435::1756217667::0::1::::<><>::uid://ewh6guivoel7::::res://medkit.png<>uid://dra1oatl6hiis::::res://medkit.gd<>uid://4kd82npal81x::::res://Half Life Medkit Sound Effect.mp3
+node_trail.gd::GDScript::-1::1756222470::0::1::::<>Node2D<>::
+Pervitina-Dex-FFP.ttf::FontFile::4903446389486245182::1755524188::1756222484::1::::<><>::
+pistol-shot-233473.mp3::AudioStreamMP3::7128219842697023880::1755498963::1755724878::1::::<><>::
+Plants vs Zombies eating sound changed.mp3::AudioStreamMP3::430470028264255574::1755500828::1755724878::1::::<><>::
+Plants vs Zombies eating sound.mp3::AudioStreamMP3::8438937470003221626::1755500223::1755724878::1::::<><>::
+Plants vs. Zombies Wave Sound Effect.mp3::AudioStreamMP3::624733119152931985::1755499657::1755724878::1::::<><>::
+player.gd::GDScript::-1::1756203938::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5923186388529393285::1756277867::0::1::::<><>::res://player.gd<>uid://b8csl75jh82a::::res://animations/player/Run.png<>uid://baq7rb1bvq22v::::res://animations/player/Shot_1.png<>uid://dkrh2p4ay01oo::::res://animations/player/Idle.png<>uid://7nck01sg3kjb::::res://single-pistol-gunshot-42-40781.mp3<>uid://brm3tjy4ps61i::::res://gun-full-reload-384507.mp3
+purepng.com-zombiezombiezombizonbihuman-corpsezombieshorrormental-diseasesviruses-170152783284746omi.png::CompressedTexture2D::2341860558936637664::1754991255::1755724879::1::::<><>::
+reserve_ammo.gd::GDScript::-1::1755454930::0::1::::<>RichTextLabel<>::
+rich_text_label.gd::GDScript::-1::1755454893::0::1::::<>RichTextLabel<>::
+score.gd::GDScript::-1::1756204235::0::1::::<>RichTextLabel<>::
+shop.tscn::PackedScene::7763100681084372161::1756277867::0::1::::<><>::
+single-pistol-gunshot-42-40781.mp3::AudioStreamMP3::2273020553220031707::1755499266::1755724878::1::::<><>::
+spawner.gd::GDScript::-1::1755530164::0::1::::<>Node<>::
+spawner.tscn::PackedScene::3895749787203766501::1756217667::0::1::::<><>::uid://bifljwxt63xrf::::res://spawner.gd<>uid://i5vi7iyxsj4t::::res://Plants vs. Zombies Wave Sound Effect.mp3<>uid://bu5k1qberw8h6::::res://Zombie Survival OST HQ [Full Soundtrack].mp3<>uid://daxv7jfhwhg2e::::res://Click Sound Effect changed.mp3
+Steve_BE.webp::CompressedTexture2D::8343117567922219537::1754989515::1755724879::1::::<><>::
+Tense music from game show - Sound Effect (HD).mp3::AudioStreamMP3::264659809074136012::1755501418::1755724878::1::::<><>::
+title_screen.gd::GDScript::-1::1755502980::0::1::::<>Control<>::
+title_screen.tscn::PackedScene::1011190254649822878::1756277867::0::1::::<><>::res://title_screen.gd<>uid://d1g55dj2u5xw::::res://Tense music from game show - Sound Effect (HD).mp3<>uid://daxv7jfhwhg2e::::res://Click Sound Effect changed.mp3<>res://Zombie-Invasion-Live-Wallpaper-Free.ogv
+trail.gd::GDScript::-1::1756222470::0::1::::<>Line2D<>::
+wave.gd::GDScript::-1::1755528848::0::1::::<>RichTextLabel<>::
+Zombie Invasion Live Wallpaper Free.ogg::AudioStreamOggVorbis::4602665784649430553::1755520963::1755724878::1::::<><>::
+Zombie Survival OST HQ [Full Soundtrack].mp3::AudioStreamMP3::3852783331768503185::1755499945::1755724878::1::::<><>::
+Zombie-Invasion-Live-Wallpaper-Free.ogv::VideoStreamTheora::-1::1755521054::0::1::::<><>::
+Zombie-Tileset---_0078_Capa-79.png::CompressedTexture2D::7029633453369665062::1756201832::1756208029::1::::<><>::
+Zombie-Tileset---_0147_Capa-148.png::CompressedTexture2D::7665505578561588647::1755724862::1755724879::1::::<><>::
+::res://addons/::1756194973
+::res://addons/SpritesheetGenerator/::1756217667
+Checker.png::CompressedTexture2D::3320247170864332717::1755708873::1755724879::1::::<><>::
+plugin.cfg::TextFile::-1::1755708873::0::1::::<><>::
+SpritesheetFrame.tscn::PackedScene::5046698409720596777::1755708873::0::1::::<><>::
+SpriteSheetGenerator.gd::GDScript::-1::1755708873::0::1::::<>EditorPlugin<>::
+SpritesheetGenerator.tscn::PackedScene::2795273312823937666::1755708873::0::1::::<><>::uid://bnkl8rujlgv0h::::res://addons/SpritesheetGenerator/Checker.png
+::res://addons/trail_2d/::1756222470
+icon.svg::CompressedTexture2D::961055436771160085::1756194973::1756194973::1::::<><>::
+plugin.cfg::TextFile::-1::1756194973::0::1::::<><>::
+test.tscn::PackedScene::3600885721114100154::1756194973::0::1::::<><>::res://addons/trail_2d/trail_2d.gd
+trail_2d.gd::GDScript::-1::1756196454::0::1::::<>Line2D<>::
+trail_2d_plugin.gd::GDScript::-1::1756194973::0::1::::<>EditorPlugin<>::
+::res://animations/::1755724879
+walking_east.png::CompressedTexture2D::6496402779449455020::1755543847::1755724879::1::::<><>::
+walking_north.png::CompressedTexture2D::1243390297234161650::1755543942::1755724879::1::::<><>::
+walking_south.png::CompressedTexture2D::802489956352253506::1755543775::1755724879::1::::<><>::
+walking_west.png::CompressedTexture2D::992153281324838108::1755543986::1755724879::1::::<><>::
+::res://animations/player/::1755724879
+Attack.png::CompressedTexture2D::7433564901051819919::1755548626::1755724879::1::::<><>::
+Dead.png::CompressedTexture2D::8634254957532438956::1755548626::1755724879::1::::<><>::
+Hurt.png::CompressedTexture2D::3056733755035365965::1755548626::1755724879::1::::<><>::
+Idle.png::CompressedTexture2D::7896718977346106074::1755548626::1755724879::1::::<><>::
+Jump.png::CompressedTexture2D::3614919908607764729::1755548626::1755724879::1::::<><>::
+Recharge.png::CompressedTexture2D::703145906852558223::1755548626::1755724879::1::::<><>::
+Run.png::CompressedTexture2D::138467516363822882::1755548626::1755724879::1::::<><>::
+Shot_1.png::CompressedTexture2D::2421424122785392007::1755548626::1755724879::1::::<><>::
+Shot_2.png::CompressedTexture2D::4158624007294717076::1755548626::1755724879::1::::<><>::
+Walk.png::CompressedTexture2D::1815758827933032004::1755548626::1755724879::1::::<><>::
+::res://animations/zombie/::1755724879
+Attack.png::CompressedTexture2D::6869022780502891101::1755545239::1755724879::1::::<><>::
+Dead.png::CompressedTexture2D::4205446082957988386::1755545239::1755724879::1::::<><>::
+Hurt.png::CompressedTexture2D::6732134980408984287::1755545239::1755724879::1::::<><>::
+Idle.png::CompressedTexture2D::8755826676757932914::1755545239::1755724879::1::::<><>::
+Walk.png::CompressedTexture2D::3066477380776185539::1755545239::1755724879::1::::<><>::
+::res://docs/::1755724879
+index.apple-touch-icon.png::CompressedTexture2D::6256150549171198483::1755721728::1755724879::1::::<><>::
+index.icon.png::CompressedTexture2D::3935380801616182081::1755721728::1755724879::1::::<><>::
+index.png::CompressedTexture2D::6075455657622720622::1755721728::1755724879::1::::<><>::
+::res://Godot-Spritesheet-Generator-07ee5dc596fafaba03e665e5e06849cdad0365b0/::1755709009
+::res://Godot-Spritesheet-Generator-07ee5dc596fafaba03e665e5e06849cdad0365b0/addons/::1755709009
+::res://Godot-Spritesheet-Generator-07ee5dc596fafaba03e665e5e06849cdad0365b0/addons/SpritesheetGenerator/::1755709009
+::res://Zombie Apocalypse Tileset/::1756222484
+Zombie Apocalypse Tileset Reference.png::CompressedTexture2D::4582623785401220444::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/::1756222470
+::res://Zombie Apocalypse Tileset/Organized separated sprites/90º Rotatable Bridge Sprites/::1756222484
+Zombie-Tileset---_0106_Capa-107.png::CompressedTexture2D::2966823836489529377::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0107_Capa-108.png::CompressedTexture2D::4139561963336634455::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0108_Capa-109.png::CompressedTexture2D::8993679406395141933::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Big Zombie Walking Animation Frames/::1756222484
+Zombie-Tileset---_0412_Capa-413.png::CompressedTexture2D::3878524235159988716::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0413_Capa-414.png::CompressedTexture2D::6177970140273620775::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0414_Capa-415.png::CompressedTexture2D::4133322047610791480::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0415_Capa-416.png::CompressedTexture2D::3652127161569116120::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0416_Capa-417.png::CompressedTexture2D::2725707299201230547::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0417_Capa-418.png::CompressedTexture2D::7163445594426032026::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0418_Capa-419.png::CompressedTexture2D::8089530445301837210::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0419_Capa-420.png::CompressedTexture2D::2817234747262269039::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0420_Capa-421.png::CompressedTexture2D::2984672153975559457::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Black Bird Flying and Ground Eating Animation Frames/::1756222484
+Zombie-Tileset---_0309_Capa-310.png::CompressedTexture2D::4879522055005062145::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0310_Capa-311.png::CompressedTexture2D::5300016776482674836::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0311_Capa-312.png::CompressedTexture2D::5453995627641491855::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0312_Capa-313.png::CompressedTexture2D::553061865750570644::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0313_Capa-314.png::CompressedTexture2D::1724146552372682783::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0314_Capa-315.png::CompressedTexture2D::6300836836740454857::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0315_Capa-316.png::CompressedTexture2D::8456572606152883755::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0316_Capa-317.png::CompressedTexture2D::1826532734581276901::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0317_Capa-318.png::CompressedTexture2D::3149054991623202110::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0318_Capa-319.png::CompressedTexture2D::4939496470467139592::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0319_Capa-320.png::CompressedTexture2D::309142358200069583::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0320_Capa-321.png::CompressedTexture2D::3587119193497924150::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Blood Animation Frames/::1756222484
+Zombie-Tileset---_0379_Capa-380.png::CompressedTexture2D::3987685306453438504::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0380_Capa-381.png::CompressedTexture2D::7043685456446080396::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0381_Capa-382.png::CompressedTexture2D::7952777493837479941::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0382_Capa-383.png::CompressedTexture2D::6672809273239872250::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0383_Capa-384.png::CompressedTexture2D::3655806795673090737::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Broken Cars and Tires/::1756222484
+Zombie-Tileset---_0179_Capa-180.png::CompressedTexture2D::8430096910691681701::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0180_Capa-181.png::CompressedTexture2D::2976590558642869475::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0181_Capa-182.png::CompressedTexture2D::1659657057162873879::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0182_Capa-183.png::CompressedTexture2D::6664825192038718909::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0183_Capa-184.png::CompressedTexture2D::2334246627487477120::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0184_Capa-185.png::CompressedTexture2D::3077542732062857851::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0185_Capa-186.png::CompressedTexture2D::7931868936474003767::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0186_Capa-187.png::CompressedTexture2D::6877400116331727814::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0187_Capa-188.png::CompressedTexture2D::191538384820457860::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0188_Capa-189.png::CompressedTexture2D::215989694275684579::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0189_Capa-190.png::CompressedTexture2D::8774912032066997872::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0190_Capa-191.png::CompressedTexture2D::1962917114130918699::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0191_Capa-192.png::CompressedTexture2D::2413677656146855630::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0192_Capa-193.png::CompressedTexture2D::6422510071734484067::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0193_Capa-194.png::CompressedTexture2D::1535836716020241742::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Big Zombie Animation Frames/::1756222484
+Zombie-Tileset---_0421_Capa-422.png::CompressedTexture2D::1788422878211719289::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0422_Capa-423.png::CompressedTexture2D::6779926333385024937::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0423_Capa-424.png::CompressedTexture2D::2529341994133481701::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0424_Capa-425.png::CompressedTexture2D::7344523760324293751::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0425_Capa-426.png::CompressedTexture2D::8484001440331387028::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0426_Capa-427.png::CompressedTexture2D::2500336941975673837::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0427_Capa-428.png::CompressedTexture2D::5572302169695356806::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0428_Capa-429.png::CompressedTexture2D::1557715045614887790::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0429_Capa-430.png::CompressedTexture2D::5509110394996900550::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Kid Zombie Animation Frames/::1756222484
+Zombie-Tileset---_0439_Capa-440.png::CompressedTexture2D::2803026295983829235::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0440_Capa-441.png::CompressedTexture2D::3986908161323295210::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0441_Capa-442.png::CompressedTexture2D::6299427525759469740::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0442_Capa-443.png::CompressedTexture2D::4294655831968364678::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0443_Capa-444.png::CompressedTexture2D::5732915271802978486::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0444_Capa-445.png::CompressedTexture2D::5898377215744641082::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0445_Capa-446.png::CompressedTexture2D::3683584913844871944::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0446_Capa-447.png::CompressedTexture2D::7988225973090007315::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0447_Capa-448.png::CompressedTexture2D::1442774608259022082::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Player Animation Frames/::1756222484
+Zombie-Tileset---_0485_Capa-486.png::CompressedTexture2D::8474992271282129325::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0486_Capa-487.png::CompressedTexture2D::6816645771849402743::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0487_Capa-488.png::CompressedTexture2D::5316325753364871257::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0488_Capa-489.png::CompressedTexture2D::2026022132477694099::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0489_Capa-490.png::CompressedTexture2D::8382452664706664331::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0490_Capa-491.png::CompressedTexture2D::5834742714593277146::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0491_Capa-492.png::CompressedTexture2D::1992289167573763192::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0492_Capa-493.png::CompressedTexture2D::543684961062978784::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0493_Capa-494.png::CompressedTexture2D::6568173084365867033::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/::1756222484
+Zombie-Tileset---_0403_Capa-404.png::CompressedTexture2D::5394574394627532881::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0404_Capa-405.png::CompressedTexture2D::7035664377125606680::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0405_Capa-406.png::CompressedTexture2D::8279424801513472103::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0406_Capa-407.png::CompressedTexture2D::7595457031015950252::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0407_Capa-408.png::CompressedTexture2D::4347003306999225304::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0408_Capa-409.png::CompressedTexture2D::204077793464223406::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0409_Capa-410.png::CompressedTexture2D::1144704293840652661::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0410_Capa-411.png::CompressedTexture2D::1590371137816122748::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0411_Capa-412.png::CompressedTexture2D::9221464112284559300::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Turret Zombie Animation Frames/::1756222484
+Zombie-Tileset---_0460_Capa-461.png::CompressedTexture2D::6735199709809617569::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0461_Capa-462.png::CompressedTexture2D::2797835271001473174::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0462_Capa-463.png::CompressedTexture2D::3116342982840921113::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0463_Capa-464.png::CompressedTexture2D::6321275358775674589::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0464_Capa-465.png::CompressedTexture2D::412330478950490496::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0465_Capa-466.png::CompressedTexture2D::7400718676284740802::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0466_Capa-467.png::CompressedTexture2D::6746722191409062149::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0467_Capa-468.png::CompressedTexture2D::1782330779113803892::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0468_Capa-469.png::CompressedTexture2D::1659435222253199672::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Dead Corpses With Flies Animation Frames/::1756222484
+Zombie-Tileset---_0290_Capa-291.png::CompressedTexture2D::611547380388191005::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0291_Capa-292.png::CompressedTexture2D::5266270959467097399::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0292_Capa-293.png::CompressedTexture2D::2026602768588159368::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0293_Capa-294.png::CompressedTexture2D::3749083225068168964::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0294_Capa-295.png::CompressedTexture2D::2709244826298632685::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0295_Capa-296.png::CompressedTexture2D::1520478646481919269::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Different Crops Lengths/::1756222484
+Zombie-Tileset---_0109_Capa-110.png::CompressedTexture2D::4713289501500021815::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0110_Capa-111.png::CompressedTexture2D::4277084539913251903::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0111_Capa-112.png::CompressedTexture2D::435921290887925443::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0112_Capa-113.png::CompressedTexture2D::6690988701517804085::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0113_Capa-114.png::CompressedTexture2D::1043059938245205278::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0114_Capa-115.png::CompressedTexture2D::6757336919330776929::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0115_Capa-116.png::CompressedTexture2D::992184353877740933::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0116_Capa-117.png::CompressedTexture2D::477701010025384374::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Drivable Car with 8 Directions/::1756222484
+Zombie-Tileset---_0164_Capa-165.png::CompressedTexture2D::3456854977768031268::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0165_Capa-166.png::CompressedTexture2D::6540709127929312845::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0166_Capa-167.png::CompressedTexture2D::7720114284811724344::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0167_Capa-168.png::CompressedTexture2D::3232911368259483991::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0168_Capa-169.png::CompressedTexture2D::3143720078240299789::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0169_Capa-170.png::CompressedTexture2D::1793199571663745022::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0170_Capa-171.png::CompressedTexture2D::8177580484313176102::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0171_Capa-172.png::CompressedTexture2D::4622834766319843705::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Exploding Barrel Animation Frames/::1756222484
+Zombie-Tileset---_0146_Capa-147.png::CompressedTexture2D::7817369135904853335::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0147_Capa-148.png::CompressedTexture2D::2281637394143240489::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0148_Capa-149.png::CompressedTexture2D::4941575096470404191::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0149_Capa-150.png::CompressedTexture2D::1662793084619944451::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Explosion Animation Frames/::1756222484
+Zombie-Tileset---_0358_Capa-359.png::CompressedTexture2D::1687350536805301553::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0359_Capa-360.png::CompressedTexture2D::5554203508505760038::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0360_Capa-361.png::CompressedTexture2D::394884705939667971::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0361_Capa-362.png::CompressedTexture2D::5753818550166478528::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0362_Capa-363.png::CompressedTexture2D::6672404748584438032::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0363_Capa-364.png::CompressedTexture2D::8939203016937622671::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Gas Station/::1756222484
+Zombie-Tileset---_0143_Capa-144.png::CompressedTexture2D::2072077884553975082::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0144_Capa-145.png::CompressedTexture2D::4919089125287404708::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0225_Capa-226.png::CompressedTexture2D::1105182667414488909::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Grass with Flowers/::1756222484
+Zombie-Tileset---_0117_Capa-118.png::CompressedTexture2D::6741838665810742139::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0217_Capa-218.png::CompressedTexture2D::3670843071453792772::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Inventory interface/::1756222484
+COKE_SLOT.png::CompressedTexture2D::3541623044749127595::1756222470::1756222484::1::::<><>::
+DOUBLE_AMMO_SLOT.png::CompressedTexture2D::6924717997590816605::1756222470::1756222484::1::::<><>::
+EMPTY_SLOT.png::CompressedTexture2D::233635445039344171::1756222470::1756222484::1::::<><>::
+GAS_CAN_SLOT.png::CompressedTexture2D::8200156136816106816::1756222470::1756222484::1::::<><>::
+GRENADE_SLOT.png::CompressedTexture2D::1524583664240731703::1756222470::1756222484::1::::<><>::
+GUN_SLOT.png::CompressedTexture2D::3985425441403492393::1756222470::1756222484::1::::<><>::
+HEALTH_KIT_SLOT.png::CompressedTexture2D::3893097116562816299::1756222470::1756222484::1::::<><>::
+INTERFACE WITH NEW INVENTORY.png::CompressedTexture2D::1452491182969685069::1756222470::1756222484::1::::<><>::
+KNIFE_SLOT.png::CompressedTexture2D::104452448854801624::1756222470::1756222484::1::::<><>::
+MEDICINE_SLOT.png::CompressedTexture2D::8899728910885944534::1756222470::1756222484::1::::<><>::
+RADIO_SLOT.png::CompressedTexture2D::1968110803027715721::1756222470::1756222484::1::::<><>::
+SHOTGUN_SLOT.png::CompressedTexture2D::726127518307087722::1756222470::1756222484::1::::<><>::
+SINGLE_AMMO_SLOT.png::CompressedTexture2D::8733474906342893245::1756222470::1756222484::1::::<><>::
+TRIPLE_AMMO_SLOT.png::CompressedTexture2D::1425958429322830079::1756222470::1756222484::1::::<><>::
+USING_SLOT.png::CompressedTexture2D::8376848183076278356::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Kid Zombie Animation Frames/::1756222484
+Zombie-Tileset---_0430_Capa-431.png::CompressedTexture2D::4803097221151287681::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0431_Capa-432.png::CompressedTexture2D::5773336172485204726::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0432_Capa-433.png::CompressedTexture2D::7902644109592803751::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0433_Capa-434.png::CompressedTexture2D::4815134567642160055::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0434_Capa-435.png::CompressedTexture2D::8560528512821580765::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0435_Capa-436.png::CompressedTexture2D::6406004691751711465::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0436_Capa-437.png::CompressedTexture2D::682894612197259190::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0437_Capa-438.png::CompressedTexture2D::574227671001031847::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0438_Capa-439.png::CompressedTexture2D::7861393686030874917::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Knife Attack Animation Frames/::1756222484
+Zombie-Tileset---_0375_Capa-376.png::CompressedTexture2D::4680741694613368965::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0376_Capa-377.png::CompressedTexture2D::8929326831652652157::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0377_Capa-378.png::CompressedTexture2D::946676223537279055::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0378_Capa-379.png::CompressedTexture2D::6662793353818354918::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Barns/::1756222484
+Zombie-Tileset---_0226_Capa-227.png::CompressedTexture2D::7779751910956270810::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0227_Capa-228.png::CompressedTexture2D::5793856754798151064::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0228_Capa-229.png::CompressedTexture2D::6768947947588092345::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0229_Capa-230.png::CompressedTexture2D::3973241457539819175::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0230_Capa-231.png::CompressedTexture2D::2766868489527573183::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0231_Capa-232.png::CompressedTexture2D::4967119324285308368::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0232_Capa-233.png::CompressedTexture2D::3250531246024652064::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0233_Capa-234.png::CompressedTexture2D::4665309681806462239::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0234_Capa-235.png::CompressedTexture2D::1690679840174739509::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0235_Capa-236.png::CompressedTexture2D::3761583607535963019::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0236_Capa-237.png::CompressedTexture2D::6842205201037772031::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0237_Capa-238.png::CompressedTexture2D::5251895081815156933::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0238_Capa-239.png::CompressedTexture2D::3640300274829537688::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0239_Capa-240.png::CompressedTexture2D::8351218869239993056::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0240_Capa-241.png::CompressedTexture2D::7326300948982498633::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0241_Capa-242.png::CompressedTexture2D::2985515187085277214::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0242_Capa-243.png::CompressedTexture2D::8422183282988455636::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0243_Capa-244.png::CompressedTexture2D::2179382702701600381::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0244_Capa-245.png::CompressedTexture2D::8337205659299900429::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0245_Capa-246.png::CompressedTexture2D::5645871634891358559::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0246_Capa-247.png::CompressedTexture2D::7832534233867332630::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0247_Capa-248.png::CompressedTexture2D::1868981094845480391::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0248_Capa-249.png::CompressedTexture2D::1488810190543280471::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0249_Capa-250.png::CompressedTexture2D::263481827514876517::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0250_Capa-251.png::CompressedTexture2D::6794773439924363914::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0251_Capa-252.png::CompressedTexture2D::4617540852341290977::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0252_Capa-253.png::CompressedTexture2D::1639667941404210039::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0253_Capa-254.png::CompressedTexture2D::4607172725661879064::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0254_Capa-255.png::CompressedTexture2D::1842964395145086689::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0255_Capa-256.png::CompressedTexture2D::7200667349040954930::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0256_Capa-257.png::CompressedTexture2D::8893391776049528316::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0257_Capa-258.png::CompressedTexture2D::6726460179925703985::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0258_Capa-259.png::CompressedTexture2D::8210513969709415295::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0259_Capa-260.png::CompressedTexture2D::708786064855660928::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0260_Capa-261.png::CompressedTexture2D::4327846838241318291::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0261_Capa-262.png::CompressedTexture2D::1058252785263788049::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0262_Capa-263.png::CompressedTexture2D::1311536274781519074::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0263_Capa-264.png::CompressedTexture2D::3802328709727155619::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0264_Capa-265.png::CompressedTexture2D::3379166426418594071::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0265_Capa-266.png::CompressedTexture2D::6190607319103939829::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0266_Capa-267.png::CompressedTexture2D::1995870725543454313::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0267_Capa-268.png::CompressedTexture2D::6329921578202721992::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0268_Capa-269.png::CompressedTexture2D::9165880287720129645::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0269_Capa-270.png::CompressedTexture2D::5833465322722557893::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0270_Capa-271.png::CompressedTexture2D::6537255289343413202::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0271_Capa-272.png::CompressedTexture2D::1069343963669104560::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0272_Capa-273.png::CompressedTexture2D::9045847948697343026::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0273_Capa-274.png::CompressedTexture2D::7025491485819830985::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0274_Capa-275.png::CompressedTexture2D::6744493045650389223::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0275_Capa-276.png::CompressedTexture2D::7150632495460276795::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0276_Capa-277.png::CompressedTexture2D::6831724018134996481::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0277_Capa-278.png::CompressedTexture2D::5116942543358513475::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0278_Capa-279.png::CompressedTexture2D::924347350205904234::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0279_Capa-280.png::CompressedTexture2D::3375179592429620006::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0280_Capa-281.png::CompressedTexture2D::5169472949182868496::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0281_Capa-282.png::CompressedTexture2D::7594038201633765287::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0282_Capa-283.png::CompressedTexture2D::765085667644615368::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0283_Capa-284.png::CompressedTexture2D::2026975841159128835::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/::1756222484
+Zombie-Tileset---_0000_Capa-1.png::CompressedTexture2D::2965702921751292900::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0001_Capa-2.png::CompressedTexture2D::2775224215037627047::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0002_Capa-3.png::CompressedTexture2D::2412993906169434895::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0003_Capa-4.png::CompressedTexture2D::1137975526404145544::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0004_Capa-5.png::CompressedTexture2D::7777123863383031612::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0005_Capa-6.png::CompressedTexture2D::2764073220814456189::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0006_Capa-7.png::CompressedTexture2D::3572595081018979948::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0007_Capa-8.png::CompressedTexture2D::1177921094599068080::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0008_Capa-9.png::CompressedTexture2D::2360748166396688124::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0009_Capa-10.png::CompressedTexture2D::768095889168212078::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0010_Capa-11.png::CompressedTexture2D::1410085344455058558::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0011_Capa-12.png::CompressedTexture2D::9134986087988408829::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0012_Capa-13.png::CompressedTexture2D::7910049321037947174::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0013_Capa-14.png::CompressedTexture2D::1487310729892420275::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0014_Capa-15.png::CompressedTexture2D::65726253402516800::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0015_Capa-16.png::CompressedTexture2D::7108182201166845290::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0016_Capa-17.png::CompressedTexture2D::1315468046302690948::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0017_Capa-18.png::CompressedTexture2D::1065903080676265313::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0018_Capa-19.png::CompressedTexture2D::1730067791193471128::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0019_Capa-20.png::CompressedTexture2D::7765962097226213194::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0020_Capa-21.png::CompressedTexture2D::8520684215037690197::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0021_Capa-22.png::CompressedTexture2D::6846894637720922495::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0022_Capa-23.png::CompressedTexture2D::1604497955960323423::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0023_Capa-24.png::CompressedTexture2D::8323319167660875861::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0024_Capa-25.png::CompressedTexture2D::8591749767847854787::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0025_Capa-26.png::CompressedTexture2D::6489714797443767297::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0026_Capa-27.png::CompressedTexture2D::5148499223648957549::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0027_Capa-28.png::CompressedTexture2D::158631565845077971::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0028_Capa-29.png::CompressedTexture2D::6904740886789499034::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Bushes/::1756222484
+Zombie-Tileset---_0081_Capa-82.png::CompressedTexture2D::4991204652604183850::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0082_Capa-83.png::CompressedTexture2D::6813543740367328375::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0083_Capa-84.png::CompressedTexture2D::324505528594770504::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0084_Capa-85.png::CompressedTexture2D::2444515877095079865::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0085_Capa-86.png::CompressedTexture2D::6613903856720821228::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0086_Capa-87.png::CompressedTexture2D::6282210759287933740::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0087_Capa-88.png::CompressedTexture2D::4068545587319516682::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0088_Capa-89.png::CompressedTexture2D::2008812903644321963::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0089_Capa-90.png::CompressedTexture2D::3711600945544316910::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0090_Capa-91.png::CompressedTexture2D::2658670278596087637::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Fences/::1756222484
+Zombie-Tileset---_0126_Capa-127.png::CompressedTexture2D::8419612584590759388::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0127_Capa-128.png::CompressedTexture2D::6679759054658613710::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0128_Capa-129.png::CompressedTexture2D::1809563671961241677::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0129_Capa-130.png::CompressedTexture2D::2301458371836308580::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0130_Capa-131.png::CompressedTexture2D::1263904244273757762::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0131_Capa-132.png::CompressedTexture2D::7375003498974570401::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0132_Capa-133.png::CompressedTexture2D::842008860602409005::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0133_Capa-134.png::CompressedTexture2D::6062439536663230451::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0194_Capa-195.png::CompressedTexture2D::194007982455451309::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0195_Capa-196.png::CompressedTexture2D::103141450001626481::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0196_Capa-197.png::CompressedTexture2D::5524867444608378249::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0197_Capa-198.png::CompressedTexture2D::3441310460150655065::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0198_Capa-199.png::CompressedTexture2D::881984446663320539::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0199_Capa-200.png::CompressedTexture2D::8319943857775722215::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0200_Capa-201.png::CompressedTexture2D::6456479186834736430::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0201_Capa-202.png::CompressedTexture2D::5532491468001255244::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0202_Capa-203.png::CompressedTexture2D::4991362042315243029::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0203_Capa-204.png::CompressedTexture2D::287933486301523381::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0204_Capa-205.png::CompressedTexture2D::5226416329888410491::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0205_Capa-206.png::CompressedTexture2D::3016280813173500643::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0206_Capa-207.png::CompressedTexture2D::878818690658729560::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0207_Capa-208.png::CompressedTexture2D::8211838344881057920::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0208_Capa-209.png::CompressedTexture2D::6447554379151761424::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0209_Capa-210.png::CompressedTexture2D::5750312830875292276::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0210_Capa-211.png::CompressedTexture2D::8170398976381746292::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0211_Capa-212.png::CompressedTexture2D::3037461431367947592::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0212_Capa-213.png::CompressedTexture2D::6647602444824880757::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0213_Capa-214.png::CompressedTexture2D::20031045674216294::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0214_Capa-215.png::CompressedTexture2D::2529950420445880828::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0215_Capa-216.png::CompressedTexture2D::349173624847782326::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0216_Capa-217.png::CompressedTexture2D::3697099638645335429::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Road/::1756222484
+Zombie-Tileset---_0029_Capa-30.png::CompressedTexture2D::1065611917198236558::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0030_Capa-31.png::CompressedTexture2D::7665134103250554008::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0031_Capa-32.png::CompressedTexture2D::1393873898637631443::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0032_Capa-33.png::CompressedTexture2D::2651821803767600247::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0033_Capa-34.png::CompressedTexture2D::1919525409945720364::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0034_Capa-35.png::CompressedTexture2D::5545350681123935950::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0035_Capa-36.png::CompressedTexture2D::7901290119288039301::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0036_Capa-37.png::CompressedTexture2D::5917372840003808779::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0037_Capa-38.png::CompressedTexture2D::5925225879704446026::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0038_Capa-39.png::CompressedTexture2D::3074253110548784687::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0039_Capa-40.png::CompressedTexture2D::3604829233490623942::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0040_Capa-41.png::CompressedTexture2D::6874002614534977210::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0041_Capa-42.png::CompressedTexture2D::8617966807393296202::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0042_Capa-43.png::CompressedTexture2D::2425409262075708319::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0043_Capa-44.png::CompressedTexture2D::2543591663234791740::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0044_Capa-45.png::CompressedTexture2D::8443313483389841473::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0045_Capa-46.png::CompressedTexture2D::7435778476297242107::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0046_Capa-47.png::CompressedTexture2D::6936683916431652326::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0047_Capa-48.png::CompressedTexture2D::3750239186612996928::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0048_Capa-49.png::CompressedTexture2D::4570887805588354579::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0049_Capa-50.png::CompressedTexture2D::5810629265455373073::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0050_Capa-51.png::CompressedTexture2D::7178001620215768387::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0051_Capa-52.png::CompressedTexture2D::8730278416416063924::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0052_Capa-53.png::CompressedTexture2D::4276683138911287449::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0053_Capa-54.png::CompressedTexture2D::8736856896552871757::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0054_Capa-55.png::CompressedTexture2D::1095425694297641121::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Small Building/::1756222484
+Zombie-Tileset---_0091_Capa-92.png::CompressedTexture2D::4554106986322559770::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0092_Capa-93.png::CompressedTexture2D::1076751172454304116::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0093_Capa-94.png::CompressedTexture2D::5810910826657428502::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0094_Capa-95.png::CompressedTexture2D::2929785454219152473::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0095_Capa-96.png::CompressedTexture2D::5953120941073106799::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0096_Capa-97.png::CompressedTexture2D::247957874762481525::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0097_Capa-98.png::CompressedTexture2D::255246687962208036::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0098_Capa-99.png::CompressedTexture2D::4470335143481865892::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0099_Capa-100.png::CompressedTexture2D::4755176284877412620::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0100_Capa-101.png::CompressedTexture2D::6971138058590551863::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0101_Capa-102.png::CompressedTexture2D::146656475255351288::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0102_Capa-103.png::CompressedTexture2D::8867035151560622788::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0103_Capa-104.png::CompressedTexture2D::5605482151635817100::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0104_Capa-105.png::CompressedTexture2D::320730370994761713::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0105_Capa-106.png::CompressedTexture2D::664407249588179262::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Stacked Straw/::1756222484
+Zombie-Tileset---_0118_Capa-119.png::CompressedTexture2D::4901789565145659174::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0119_Capa-120.png::CompressedTexture2D::42959340021007466::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0120_Capa-121.png::CompressedTexture2D::8262992083549249117::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0121_Capa-122.png::CompressedTexture2D::7554794453624273723::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0122_Capa-123.png::CompressedTexture2D::7325641445027465931::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0123_Capa-124.png::CompressedTexture2D::2617273893155393395::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Terrain Path/::1756222484
+Zombie-Tileset---_0065_Capa-66.png::CompressedTexture2D::5366784640290139038::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0066_Capa-67.png::CompressedTexture2D::7370859526872149659::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0067_Capa-68.png::CompressedTexture2D::7973605673865156971::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0068_Capa-69.png::CompressedTexture2D::5247898985091727734::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0069_Capa-70.png::CompressedTexture2D::3129206324520169076::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0070_Capa-71.png::CompressedTexture2D::6075733238619963530::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0071_Capa-72.png::CompressedTexture2D::2625973490206250128::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0072_Capa-73.png::CompressedTexture2D::8694462261007198107::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0073_Capa-74.png::CompressedTexture2D::2083389499108956353::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0074_Capa-75.png::CompressedTexture2D::1201640147781589156::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0075_Capa-76.png::CompressedTexture2D::7676467428926054561::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0076_Capa-77.png::CompressedTexture2D::2857235845548683181::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Music Notes Animation Frames/::1756222484
+Zombie-Tileset---_0389_Capa-390.png::CompressedTexture2D::2666910104900692146::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0390_Capa-391.png::CompressedTexture2D::8062508795360129609::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0391_Capa-392.png::CompressedTexture2D::8833061224588041989::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/::1756222484
+Zombie-Tileset---_0327_Capa-328.png::CompressedTexture2D::4313971435821085789::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0328_Capa-329.png::CompressedTexture2D::5796854660563392022::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0329_Capa-330.png::CompressedTexture2D::8309702187007565310::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0330_Capa-331.png::CompressedTexture2D::6475759812736777725::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0331_Capa-332.png::CompressedTexture2D::6017995794963679860::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0332_Capa-333.png::CompressedTexture2D::7786141296130372317::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0333_Capa-334.png::CompressedTexture2D::933301832992500445::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0334_Capa-335.png::CompressedTexture2D::7027489411301408886::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0335_Capa-336.png::CompressedTexture2D::8347731455105752715::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0336_Capa-337.png::CompressedTexture2D::9083975027165050965::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0337_Capa-338.png::CompressedTexture2D::2589795174327421692::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0338_Capa-339.png::CompressedTexture2D::5022920464632007629::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0339_Capa-340.png::CompressedTexture2D::7789078873281235171::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0340_Capa-341.png::CompressedTexture2D::1795440568851504036::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0341_Capa-342.png::CompressedTexture2D::8311709024374398760::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0342_Capa-343.png::CompressedTexture2D::8219541254532148980::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0343_Capa-344.png::CompressedTexture2D::5948883921428967701::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0344_Capa-345.png::CompressedTexture2D::106677500725560612::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0355_Capa-356.png::CompressedTexture2D::5822100576322256758::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0356_Capa-357.png::CompressedTexture2D::6104508454392670926::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Pistol Shooting Animation Frames/::1756222484
+Zombie-Tileset---_0370_Capa-371.png::CompressedTexture2D::2216877216200740354::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0371_Capa-372.png::CompressedTexture2D::1872088509465158172::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0372_Capa-373.png::CompressedTexture2D::8113872298622165585::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0373_Capa-374.png::CompressedTexture2D::6685980685365075668::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0374_Capa-375.png::CompressedTexture2D::5229744013735818966::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Player Character Walking Animation Frames/::1756222484
+Zombie-Tileset---_0476_Capa-477.png::CompressedTexture2D::4546812496514518289::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0477_Capa-478.png::CompressedTexture2D::3825516922334399780::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0478_Capa-479.png::CompressedTexture2D::988903526560171739::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0479_Capa-480.png::CompressedTexture2D::4502045196042647883::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0480_Capa-481.png::CompressedTexture2D::2877961045877668521::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0481_Capa-482.png::CompressedTexture2D::6664574481189494677::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0482_Capa-483.png::CompressedTexture2D::7652768298209602946::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0483_Capa-484.png::CompressedTexture2D::8940573918835152651::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0484_Capa-485.png::CompressedTexture2D::8968905394230224811::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Random Blood Stains/::1756222484
+Zombie-Tileset---_0384_Capa-385.png::CompressedTexture2D::4415770840417350948::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0385_Capa-386.png::CompressedTexture2D::3208832933321772308::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0386_Capa-387.png::CompressedTexture2D::7383133648779806692::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0387_Capa-388.png::CompressedTexture2D::5239318037673329611::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0388_Capa-389.png::CompressedTexture2D::5757153126738709214::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Scarecrow/::1756222484
+Zombie-Tileset---_0124_Capa-125.png::CompressedTexture2D::3074169330754571841::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0125_Capa-126.png::CompressedTexture2D::6004894384193245613::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Shootable Coke Can Animation Frames/::1756222484
+Zombie-Tileset---_0345_Capa-346.png::CompressedTexture2D::870492073736943894::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0346_Capa-347.png::CompressedTexture2D::846685942717944566::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0347_Capa-348.png::CompressedTexture2D::5335067416936823363::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0348_Capa-349.png::CompressedTexture2D::3751922023442992834::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0349_Capa-350.png::CompressedTexture2D::3197734954631513220::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/::1756222484
+Zombie-Tileset---_0364_Capa-365.png::CompressedTexture2D::8488278806738249576::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0365_Capa-366.png::CompressedTexture2D::7700516202999371797::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0366_Capa-367.png::CompressedTexture2D::2348412248307783705::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0367_Capa-368.png::CompressedTexture2D::8690970954589621680::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0368_Capa-369.png::CompressedTexture2D::3505852595797903685::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0369_Capa-370.png::CompressedTexture2D::105364791654342783::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Sitting Zombie/::1756222484
+Zombie-Tileset---_0392_Capa-393.png::CompressedTexture2D::3094730067337282991::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0393_Capa-394.png::CompressedTexture2D::2900679243826134897::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/::1756222484
+Zombie-Tileset---_0394_Capa-395.png::CompressedTexture2D::8515115991646493684::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0395_Capa-396.png::CompressedTexture2D::5777156880313897971::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0396_Capa-397.png::CompressedTexture2D::486030382692177494::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0397_Capa-398.png::CompressedTexture2D::1799692273423875572::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0398_Capa-399.png::CompressedTexture2D::8075771641725658026::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0399_Capa-400.png::CompressedTexture2D::7600469118557284621::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0400_Capa-401.png::CompressedTexture2D::1235775183725016403::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0401_Capa-402.png::CompressedTexture2D::5942766737642102933::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0402_Capa-403.png::CompressedTexture2D::7923143861196475912::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Smoke Animation Frames/::1756222484
+Zombie-Tileset---_0321_Capa-322.png::CompressedTexture2D::7037245015244286404::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0322_Capa-323.png::CompressedTexture2D::8969230642277043376::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0323_Capa-324.png::CompressedTexture2D::5315309509157362793::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0324_Capa-325.png::CompressedTexture2D::6817321483500083492::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0325_Capa-326.png::CompressedTexture2D::7130719550900530179::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0326_Capa-327.png::CompressedTexture2D::4157168116656136049::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Spawning Item Box Animation Frames + Broken Box Pieces/::1756222484
+Zombie-Tileset---_0284_Capa-285.png::CompressedTexture2D::898751871306399609::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0285_Capa-286.png::CompressedTexture2D::1706477685391252010::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0286_Capa-287.png::CompressedTexture2D::1482725366057569071::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0287_Capa-288.png::CompressedTexture2D::7065921143806976587::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0288_Capa-289.png::CompressedTexture2D::1348266539174581502::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0289_Capa-290.png::CompressedTexture2D::1660686694329491616::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Spawning Money Animation Frames/::1756222484
+Zombie-Tileset---_0350_Capa-351.png::CompressedTexture2D::1624210414340853481::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0351_Capa-352.png::CompressedTexture2D::6905514250101009775::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0352_Capa-353.png::CompressedTexture2D::9204149388524902813::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0353_Capa-354.png::CompressedTexture2D::7883880857434003371::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0354_Capa-355.png::CompressedTexture2D::3717937698385336022::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Store Truck with Smoking Guy Animation Frames/::1756222484
+Zombie-Tileset---_0176_Capa-177.png::CompressedTexture2D::710638574788148545::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0177_Capa-178.png::CompressedTexture2D::1845992622315912001::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0178_Capa-179.png::CompressedTexture2D::1128497949570339949::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Terrain Variations/::1756222484
+Zombie-Tileset---_0077_Capa-78.png::CompressedTexture2D::7465090764467594553::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0078_Capa-79.png::CompressedTexture2D::8072305080400602569::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0079_Capa-80.png::CompressedTexture2D::5090582028491068315::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0080_Capa-81.png::CompressedTexture2D::9096323083368482470::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Terrain wall/::1756222484
+Zombie-Tileset---_0064_Capa-65.png::CompressedTexture2D::8243300763656920101::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Tombstone/::1756222484
+Zombie-Tileset---_0357_Capa-358.png::CompressedTexture2D::3511708560016364460::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Tractor/::1756222484
+Zombie-Tileset---_0172_Capa-173.png::CompressedTexture2D::1954758447349420946::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0173_Capa-174.png::CompressedTexture2D::1710019870368223354::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0174_Capa-175.png::CompressedTexture2D::7259262265927637296::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0175_Capa-176.png::CompressedTexture2D::6894257298951717636::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/::1756222484
+Zombie-Tileset---_0134_Capa-135.png::CompressedTexture2D::3901381966237582022::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0135_Capa-136.png::CompressedTexture2D::2766980995360893538::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0136_Capa-137.png::CompressedTexture2D::2482581185700842767::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0137_Capa-138.png::CompressedTexture2D::6302294644533559935::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0138_Capa-139.png::CompressedTexture2D::7318234586016333675::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0139_Capa-140.png::CompressedTexture2D::2149131636515931544::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0140_Capa-141.png::CompressedTexture2D::123374402867655897::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0141_Capa-142.png::CompressedTexture2D::3558952153405577749::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0142_Capa-143.png::CompressedTexture2D::4562532317335838508::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Turret Zombie Animation Frames/::1756222484
+Zombie-Tileset---_0448_Capa-449.png::CompressedTexture2D::3085387513110936817::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0449_Capa-450.png::CompressedTexture2D::1077924628054848467::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0450_Capa-451.png::CompressedTexture2D::5224421868303717473::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0451_Capa-452.png::CompressedTexture2D::5329729705641725869::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0452_Capa-453.png::CompressedTexture2D::3522684117971577158::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0453_Capa-454.png::CompressedTexture2D::3585891462933411359::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0454_Capa-455.png::CompressedTexture2D::7387854299212715149::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0455_Capa-456.png::CompressedTexture2D::4563062239551746736::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0456_Capa-457.png::CompressedTexture2D::8330597170967471399::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0457_Capa-458.png::CompressedTexture2D::2176386089606430383::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0458_Capa-459.png::CompressedTexture2D::8614581306919570580::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0459_Capa-460.png::CompressedTexture2D::8199933153707972110::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Turret Zombie Vomit Shooting Animation Frames_/::1756222484
+Zombie-Tileset---_0469_Capa-470.png::CompressedTexture2D::5381124552181051836::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0470_Capa-471.png::CompressedTexture2D::4344998606134562235::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0471_Capa-472.png::CompressedTexture2D::2775911878481861005::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0472_Capa-473.png::CompressedTexture2D::6847443452469261351::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0473_Capa-474.png::CompressedTexture2D::173582098140006212::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0474_Capa-475.png::CompressedTexture2D::5992632598931078365::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0475_Capa-476.png::CompressedTexture2D::7510233425119276813::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/UI Elements/::1756222484
+Zombie-Tileset---_0494_Capa-495.png::CompressedTexture2D::1438148453572365175::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0495_Capa-496.png::CompressedTexture2D::5083511914958147638::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0496_Capa-497.png::CompressedTexture2D::8154344801243354824::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0497_Capa-498.png::CompressedTexture2D::76411129869336173::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0498_Capa-499.png::CompressedTexture2D::7567331151669364860::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0499_Capa-502.png::CompressedTexture2D::4522136829487306166::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0500_Capa-503.png::CompressedTexture2D::5062257268496704411::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0501_Capa-504.png::CompressedTexture2D::8515186256026040747::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0502_Capa-505.png::CompressedTexture2D::5280526343423077977::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0503_Capa-506.png::CompressedTexture2D::3988378635483982454::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0504_Capa-507.png::CompressedTexture2D::1403286260774424953::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0505_Capa-508.png::CompressedTexture2D::5860170075998538236::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0506_Capa-509.png::CompressedTexture2D::7297001753356599046::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0507_Capa-510.png::CompressedTexture2D::6715433874196879454::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0508_Capa-511.png::CompressedTexture2D::7904870959437069205::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0509_Capa-512.png::CompressedTexture2D::2319849255502706707::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0510_Capa-513.png::CompressedTexture2D::8294067206428467684::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0511_Capa-514.png::CompressedTexture2D::1234250203631157342::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0512_Capa-515.png::CompressedTexture2D::6826025150291884426::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0513_Capa-516.png::CompressedTexture2D::4325677155487204599::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0514_Capa-517.png::CompressedTexture2D::3721062415945095653::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0515_Capa-518.png::CompressedTexture2D::5772304372801733376::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0516_Capa-519.png::CompressedTexture2D::2565228328309237009::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Under Bridge Water animation frames/::1756222484
+Zombie-Tileset---_0055_Capa-56.png::CompressedTexture2D::4365808952500532321::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0056_Capa-57.png::CompressedTexture2D::6760014591358915452::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0057_Capa-58.png::CompressedTexture2D::304172984973089024::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0058_Capa-59.png::CompressedTexture2D::337897983494130872::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0059_Capa-60.png::CompressedTexture2D::1991113901238858296::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0060_Capa-61.png::CompressedTexture2D::936914906139600553::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Urban Assets/::1756222484
+Zombie-Tileset---_0145_Capa-146.png::CompressedTexture2D::3350962371450607824::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0150_Capa-151.png::CompressedTexture2D::3104919694840623828::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0151_Capa-152.png::CompressedTexture2D::123134747965578290::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0152_Capa-153.png::CompressedTexture2D::3622232204152526588::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0153_Capa-154.png::CompressedTexture2D::2095111806854775466::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0154_Capa-155.png::CompressedTexture2D::1934643847675082507::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0155_Capa-156.png::CompressedTexture2D::4419477560795930036::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0156_Capa-157.png::CompressedTexture2D::3206238796096567006::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0157_Capa-158.png::CompressedTexture2D::3920000711169398203::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0158_Capa-159.png::CompressedTexture2D::5960650763699137393::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0159_Capa-160.png::CompressedTexture2D::8795129464397242379::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0160_Capa-161.png::CompressedTexture2D::3602295206740704083::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0161_Capa-162.png::CompressedTexture2D::1308891220099065020::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0162_Capa-163.png::CompressedTexture2D::2558684129996277397::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0163_Capa-164.png::CompressedTexture2D::6148429675440210421::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Water animation frames/::1756222484
+Zombie-Tileset---_0061_Capa-62.png::CompressedTexture2D::5540723515890974929::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0062_Capa-63.png::CompressedTexture2D::1933199750411042732::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0063_Capa-64.png::CompressedTexture2D::8629432240206185412::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/White Bird Flying, Ground Eating + Being Shot Blood Animation Frames/::1756222484
+Zombie-Tileset---_0297_Capa-298.png::CompressedTexture2D::7900404445856820120::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0298_Capa-299.png::CompressedTexture2D::8486948657233718893::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0299_Capa-300.png::CompressedTexture2D::8219709829383215443::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0300_Capa-301.png::CompressedTexture2D::5031463189411309436::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0301_Capa-302.png::CompressedTexture2D::1652420830959080447::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0302_Capa-303.png::CompressedTexture2D::420935863401350122::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0303_Capa-304.png::CompressedTexture2D::3397537997801167479::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0304_Capa-305.png::CompressedTexture2D::294974232047379317::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0305_Capa-306.png::CompressedTexture2D::7006820410150825057::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0306_Capa-307.png::CompressedTexture2D::6646985786969717595::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0307_Capa-308.png::CompressedTexture2D::8392772388912939031::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0308_Capa-309.png::CompressedTexture2D::8863509082761582973::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Windmill with Fan Animation Frames/::1756222484
+Zombie-Tileset---_0218_Capa-219.png::CompressedTexture2D::8651720505245343101::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0219_Capa-220.png::CompressedTexture2D::7480974553032071339::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0220_Capa-221.png::CompressedTexture2D::1533218753387033667::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0221_Capa-222.png::CompressedTexture2D::3067659847380890322::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0222_Capa-223.png::CompressedTexture2D::4399488168428317242::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0223_Capa-224.png::CompressedTexture2D::1663519772726104533::1756222470::1756222484::1::::<><>::
+Zombie-Tileset---_0224_Capa-225.png::CompressedTexture2D::7871215106268279230::1756222470::1756222484::1::::<><>::
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Zombie Poster/::1756222484
+Zombie-Tileset---_0296_Capa-297.png::CompressedTexture2D::6256259260034483509::1756222470::1756222484::1::::<><>::
+>>>>>>> Stashed changes

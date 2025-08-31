@@ -6,7 +6,7 @@ extends Area2D
 func _on_area_entered(body: Node2D) -> void:
 	var explo = explosion.instantiate()
 	explo.position = $Sprite2D.position
-	$explosionTimer.start()
+	#$explosionTimer.start()
 	add_child(explo)
 	#explo.call_deferred("apply_damage")
 	get_parent().get_node("explosion").play()
