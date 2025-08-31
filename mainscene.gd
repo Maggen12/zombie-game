@@ -4,7 +4,7 @@
 #2 der skal ihverfalt hver et mere belønning når man kommer igennem waves
 #En boss på et tidspunkt
 #Flottere baggrund + bedre size forhold mellem zombiere, player og probs i baggrunden
-#lav alting større og full screen
+#lav en sprint funktion på shift - cooldown - visual cooldown 
 
 
 extends Node

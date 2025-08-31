@@ -62,6 +62,7 @@ func _bababooey() -> void:
 	$deadTimer.start()
 	dead = true
 	$CollisionShape2D.queue_free()
+	$Area2D/HitBox.queue_free()
 	if target_position.x < 0:
 		$dead.flip_h = true
 	elif target_position.x > 0:
