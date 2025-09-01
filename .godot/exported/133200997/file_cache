@@ -1,0 +1,16 @@
+res://addons/SpritesheetGenerator/SpritesheetFrame.tscn::17c173d4a9944c8fd3827264308956b1::1755708873::res://.godot/exported/133200997/export-8266c5135d539ba30181e252b9963442-SpritesheetFrame.scn
+res://addons/SpritesheetGenerator/SpritesheetGenerator.tscn::9f21cbffab9694b96aeb6edbf609e42c::1755708873::res://.godot/exported/133200997/export-791ed351eb79c3d7be4e6f738c617d39-SpritesheetGenerator.scn
+res://addons/trail_2d/test.tscn::f25c2e2c73ea7b6c75de62b772a3f061::1756194973::res://.godot/exported/133200997/export-126eba02f733ba670d2839b6dd0fe89e-test.scn
+res://ammo_box.tscn::47ee15fa4a210a56c8ccb614d3746d50::1756217667::res://.godot/exported/133200997/export-24635a17fd7741788bf9773d0bb7910a-ammo_box.scn
+res://bullet.tscn::f1575545c65af47d1cdd2df7145cfd74::1756671564::res://.godot/exported/133200997/export-6350fccf6e14d2f0c891730ee1d2c6cd-bullet.scn
+res://character_body_2d.tscn::a6d6b0ac5459525a4d5a3ee663514c76::1756217667::res://.godot/exported/133200997/export-25eb6ab7203e76730ffb59dd2891996c-character_body_2d.scn
+res://enemy.tscn::18d641884e65e9bb0473509cb20a8bf2::1756709278::res://.godot/exported/133200997/export-ec12bd2205a8e44213188668d747d7fa-enemy.scn
+res://exploding_barrel.tscn::33204d9bf84a53e33a61bea54500c157::1756671692::res://.godot/exported/133200997/export-4a46225e8ea0962701fd48e4931796d3-exploding_barrel.scn
+res://explosion.tscn::032d965ba6c302d41217f91de2515cd9::1756671564::res://.godot/exported/133200997/export-37f562657059001060a0639ef053daa5-explosion.scn
+res://game_over.tscn::6e5c3e2b204fa8b73378e075c25c8b5a::1756671564::res://.godot/exported/133200997/export-d8e4acb474e0f28479495aaad84d873f-game_over.scn
+res://mainscene.tscn::c3b430383fc44a566891a35ef8dcd6d9::1756672275::res://.godot/exported/133200997/export-151afae4750458ddb07ce779d9e70580-mainscene.scn
+res://medkit.tscn::d105af2b8f085922e412299f3631ac82::1756217667::res://.godot/exported/133200997/export-7fc63ce8fbd24ca0764f7d4aeb33e038-medkit.scn
+res://player.tscn::d6deb28c030df38f5542ef20b3171a1f::1756709278::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
+res://shop.tscn::3028ea6344c21f1fea4e356661da26b1::1756671564::res://.godot/exported/133200997/export-6e1f46ea5549f1acd5111fcfb51be4b1-shop.scn
+res://spawner.tscn::aaff988d420b1e1a3c368424901ddffa::1756217667::res://.godot/exported/133200997/export-0fde37ebae25e6d7e9fde4a1aba1401b-spawner.scn
+res://title_screen.tscn::443d87e3da0ffb48f74342d3c35a43cb::1756709278::res://.godot/exported/133200997/export-22e59c4ebacac7a9e73c1ffd541bda9a-title_screen.scn
