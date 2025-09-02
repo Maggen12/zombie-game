@@ -1,5 +1,5 @@
 bdbec74c6e5bd72edee867077d70896c
-::res://::1756709466
+::res://::1756803865
 360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg::CompressedTexture2D::7319518547959599075::1755501084::1755724879::1::::<><>::
 1956b1c08d23633f8a35f3d0de4508276747da3c.png::CompressedTexture2D::225161863056592044::1755504029::1755724879::1::::<><>::
 ammo_box.gd::GDScript::-1::1755587139::0::1::::<>Area2D<>::
@@ -24,7 +24,7 @@ Explosion sound effect - bomb sound - boom sound.skibidi.mp3::AudioStreamMP3::11
 Explosion Sound Effect.mp3::AudioStreamMP3::2154677528524554982::1755611800::1755724878::1::::<><>::
 explosion.gd::GDScript::-1::1756098608::0::1::::<>Area2D<>::
 explosion.tscn::PackedScene::5207999207139865921::1756671564::0::1::::<><>::res://explosion.gd
-export_presets.cfg::TextFile::-1::1756709351::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1756709640::0::1::::<><>::
 game_over.gd::GDScript::-1::1756104401::0::1::::<>Control<>::
 game_over.tscn::PackedScene::4190757792047633029::1756671564::0::1::::<><>::res://game_over.gd
 globalVariables.gd::GDScript::-1::1756204209::0::1::::<>Node<>::
